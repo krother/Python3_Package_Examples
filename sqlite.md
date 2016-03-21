@@ -7,7 +7,7 @@ Create and use a *SQLite* database.
 
 SQLite databases are stored in files. For using the `sqlite3` module you don't need to install or set up anything. SQLite is sufficient only for small SQL databases, but Python modules for bigger databases look very similar.
 
-### Installed with Python by default
+### Installed with Python by default?
 
 yes
 
