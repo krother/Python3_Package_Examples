@@ -7,7 +7,7 @@ Print complex data structures nicely.
 
 The `pprint` module prints lists, tuples, dictionary and other data structures. It tries to fit everything into one line. If this does not work, each entry gets its own line. You can control the line width.
 
-### Installed with Python by default
+### Installed with Python by default?
 
 yes
 
