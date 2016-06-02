@@ -20,3 +20,8 @@ This document is for you if:
 * you would like to try a few simple examples
 
 **Have fun getting to know Python better!**
+
+## Overview
+
+![25 Modules](module_mindmap.png)
+
