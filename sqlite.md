@@ -31,6 +31,7 @@ Insert data:
     >>> query = 'INSERT INTO person VALUES (?,?,?)'
     >>> db.execute(query, (1, "Hamlet", "the prince of Denkmark"))
     >>> db.execute(query, (2, "Polonius", "Ophelias father"))
+    >>> db.commit()
 
 Submit a query:
 
@@ -43,4 +44,4 @@ Submit a query:
 
 ### Where to learn more?
 
-[]()
+[docs.python.org/3.5/library/sqlite3.html](https://docs.python.org/3.5/library/sqlite3.html)
