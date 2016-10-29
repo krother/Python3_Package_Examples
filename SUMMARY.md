@@ -19,6 +19,7 @@
 * Interacting with the web
   * [bottle - run a small web server](bottle.md)
   * [bs4 - parsing HTML pages](bs4.md)
+  * [requests - improved retrieving web pages](requests.md)
   * [urllib - retrieving web pages](urllib.md)
 * Other frequently used libraries
   * [itertools - working with lists and generators](itertools.md)
