@@ -22,6 +22,7 @@
   * [requests - improved retrieving web pages](requests.md)
   * [urllib - retrieving web pages](urllib.md)
 * Other frequently used libraries
+  * [argparse - reading command-line arguments](argparse.md)
   * [itertools - working with lists and generators](itertools.md)
   * [math - mathematical functions](math.md)
   * [pprint - pretty-printing data](pprint.md)
