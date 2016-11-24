@@ -35,9 +35,9 @@ Create a table with characters and numbers.:
 
 Sorted lines by name, filter by minimum size, print first two values and write  a CSV file:
 
-    >>> sorted = df.sort_values(by='name', ascending=False).head(2))
-    >>> filtered = sorted[sorted['size'] > 1.70]
-    >>> print(filtered.head(2))
+    >>> sorted = df.sort_values(by='name', ascending=False)
+    >>> tall = sorted[sorted['size'] > 1.70]
+    >>> print(tall.head(2))
            name  size
     3  Claudius  1.95
     2   Ophelia  1.83

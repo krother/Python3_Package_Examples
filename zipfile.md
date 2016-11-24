@@ -13,27 +13,30 @@ yes
 
 ### Example
 
-Create a new zip archive and add files:
+Create a new zip archive and add files to it:
 
+    :::python
     >>> import zipfile
-
     >>> z = zipfile.ZipFile('archive.zip', 'w')
     >>> z.write('myfile.txt')                   # has to exist
     >>> z.writestr('test.txt', 'Hello World')   # new
     >>> z.close()
 
-List contents of a zip file:
+List contents of the newly created zip file:
 
-    >>> z.ZipFile('archive.zip')
+    :::python
+    >>> z = zipfile.ZipFile('archive.zip')
     >>> z.namelist()
     ['test.txt', 'myfile.txt']
 
 Extract a file to a new folder:
 
+    :::python
     >>> z.extract('test.txt', 'myfolder')
     'myfolder/test.txt'
     >>> z.close()
 
 ### Where to learn more?
 
-[]()
+[docs.python.org/3/library/zipfile.html](https://docs.python.org/3/library/zipfile.html)
+

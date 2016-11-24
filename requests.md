@@ -20,16 +20,18 @@ yes
 
 Read the homepage of the author.
 
+    :::python
     >>> import requests
-
     >>> r = requests.get('http://www.academis.eu')
     >>> print(r.text)
 
 Search scientific articles on PubMed:
 
+    :::python
     >>> url = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
     >>> param_dict = {'db':'pubmed', 'term':'escherichia', 'rettype':'uilist'}
 
+    :::python
     >>> r = requests.get(url, params=param_dict)
     >>> print(r.text)
 
