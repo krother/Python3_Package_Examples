@@ -15,22 +15,23 @@ yes
 
 Change directory and list its contents:
 
-    >>> import os
+    import os
 
-    >>> os.chdir('/home/krother/Desktop/courses/python/')
-    >>> os.listdir('module_handout')
+    os.chdir('/home/krother/python_modules/')
+    os.listdir('.')
+
     ['sys.md', 'os.md', 'csv.md', 're.md', 'random.md', 
     'pprint.md', 'numpy.md', 'time.md', 'itertools.md', 
     'json.md', 'template.md', 'math.md', 'urllib.md']
 
 Check whether a file exists:
 
-    >>> os.path.exists('module_handout/template.md')
+    os.path.exists('os.md')
 
 Copy a file and remove it afterwards:
 
-    >>> os.system('cp module_handout/template.md test.md')
-    >>> os.remove('test.md')
+    os.system('cp os.md copy.md')
+    os.remove('copy.md')
 
 ### Where to learn more?
 

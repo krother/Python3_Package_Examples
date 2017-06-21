@@ -13,28 +13,33 @@ yes
 
 ### Example
 
-    >>> import re
+    import re
 
-    >>> text = "the quick brown fox jumps over the lazy dog"
+    text = "the quick brown fox jumps over the lazy dog"
 
 Search for `o` and show adjacent characters:
 
-    >>> re.findall(".o.", text)
+    re.findall(".o.", text)
+    print(re.findall(".o.", text))
+
     ['row', 'fox', ' ov', 'dog']
 
 Search for three-letter words enclosed by whitespace:
 
-    >>> re.findall("\s(\wo\w)\s*", text)
+    print(re.findall("\s(\wo\w)\s*", text))
+        
     ['fox', 'dog']
 
 Substitute any of `dflj` by a `w`:
 
-    >>> re.sub("[dflj]", "w", text)
+    print(re.sub("[dflj]", "w", text))
+    
     'the quick brown wox wumps over the wazy wog'
 
 Check if `jumps` or `swims` occurs and return details:
 
-    >>> re.search('jumps|swims', text)
+    print(re.search('jumps|swims', text))
+    
     <_sre.SRE_Match object; span=(20, 25), match='jumps'>
 
 ### Where to learn more?

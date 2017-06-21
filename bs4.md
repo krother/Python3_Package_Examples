@@ -23,26 +23,25 @@ no
 
 Parsing list items out of a HTML document:
 
-    >>> from bs4 import BeautifulSoup
+    from bs4 import BeautifulSoup
 
-    >>> html = """<html><head></head><body>
-    ... <h1>Hamlet</h1>
-    ... <ul class="cast"> 
-    ...   <li>Hamlet</li>
-    ...   <li>Polonius</li>
-    ...   <li>Ophelia</li>
-    ...   <li>Claudius</li>
-    ... </ul>
-    ... </body></html"""
+    html = """<html><head></head><body>
+    <h1>Hamlet</h1>
+    <ul class="cast"> 
+      <li>Hamlet</li>
+      <li>Polonius</li>
+      <li>Ophelia</li>
+      <li>Claudius</li>
+    </ul>
+    </body></html"""
 
-    >>> soup = BeautifulSoup(html, "lxml")
+    soup = BeautifulSoup(html, "lxml")
 
-    >>> for ul in soup.find_all('ul'):
-    ...     if "cast" in ul.get('class', []):
-    ...         for item in ul.find_all('li'):
-    ...             print(item.get_text(), end=", ")
+    for ul in soup.find_all('ul'):
+        if "cast" in ul.get('class', []):
+            for item in ul.find_all('li'):
+                print(item.get_text(), end=", ")
 
-    Hamlet, Polonius, Ophelia, Claudius, 
 
 ### Where to learn more?
 

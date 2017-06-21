@@ -21,11 +21,11 @@ yes
 
 List the directory on a remote machine.
 
-from paramiko import SSHClient
-client = SSHClient()
-client.load_system_host_keys()
-client.connect('ssh.example.com', username="username", password="password")
-stdin, stdout, stderr = client.exec_command('ls -l')
+    from paramiko import SSHClient
+    client = SSHClient()
+    client.load_system_host_keys()
+    client.connect('ssh.example.com', username="username", password="password")
+    stdin, stdout, stderr = client.exec_command('ls -l')
 
 #### WARNING
 

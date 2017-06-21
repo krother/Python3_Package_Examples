@@ -23,10 +23,12 @@ yes
 
 Create a table with characters and numbers.:
 
-    >>> import pandas as pd
-    >>> hamlet = [['Hamlet', 1.76], ['Polonius', 1.52], ['Ophelia', 1.83], ['Claudius', 1.95]]
-    >>> df = pd.DataFrame(data = hamlet, columns = ['name', 'size'])
-    >>> df
+    import pandas as pd
+
+    hamlet = [['Hamlet', 1.76], ['Polonius', 1.52], ['Ophelia', 1.83], ['Claudius', 1.95]]
+    df = pd.DataFrame(data = hamlet, columns = ['name', 'size'])
+    print(df)
+
            name  size
     0    Hamlet  1.76
     1  Polonius  1.52
@@ -35,14 +37,15 @@ Create a table with characters and numbers.:
 
 Sorted lines by name, filter by minimum size, print first two values and write  a CSV file:
 
-    >>> sorted = df.sort_values(by='name', ascending=False)
-    >>> tall = sorted[sorted['size'] > 1.70]
-    >>> print(tall.head(2))
+    sorted = df.sort_values(by='name', ascending=False)
+    tall = sorted[sorted['size'] > 1.70]
+    print(tall.head(2))
+
            name  size
     3  Claudius  1.95
     2   Ophelia  1.83
     
-    >>> df.to_csv('hamlet.csv', index=False, header=True)
+    df.to_csv('hamlet.csv', index=False, header=True)
 
 ### Where to learn more?
 

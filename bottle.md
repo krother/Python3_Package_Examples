@@ -19,21 +19,31 @@ no, but the very similar framework `flask` is!
 
 Start a web server on port 8080:
 
-    from bottle import default_app, route, run
+    from bottle import default_app, route, run, get, post, request
 
-    @route('/')
+    @get('/form')
     def index():
-        characters = ['Hamlet', 'Ophelia', 'Polonius', 'Claudius']
-        cast = "<h3>dramatis personae:</h3>"
-        for char in characters:
-            cast += '<li><a href="/{0}">{0}</a></li>'.format(char)
-        return '<ul>{}</ul>'.format(cast)
+        return '''
+        <form action="/form" method="post">
+            Word: <input name="word" type="text" />
+            <input value="Send" type="submit" />
+        </form>
+        '''
 
-    @route('/<char>')
-    def enter_char(char):
-        html = '''<h1>Enter {}</h1>
-        <a href="/">back</a>'''.format(char)
+    @post('/form')
+    def eval_form():
+        word = request.forms.get('word')
+        html = '''<h1>You entered a word with {} characters</h1>
+        <a href="/word/{}">show the word</a>
+        '''.format(len(word), word)
         return html
+
+    @route('/word/<word>')
+    def show_word(word):
+        html = '''<h1>The word is: {}</h1>
+        <a href="/">back</a>'''.format(word)
+        return html
+
 
     application = default_app()
     run(application, host='localhost', port=8080, reloader=True)

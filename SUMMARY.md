@@ -20,7 +20,6 @@
   * [bottle - run a small web server](bottle.md)
   * [bs4 - parsing HTML pages](bs4.md)
   * [requests - improved retrieving web pages](requests.md)
-  * [urllib - retrieving web pages](urllib.md)
   * [paramiko - executing commands via SSH](paramiko.md)
 * Other frequently used libraries
   * [argparse - reading command-line arguments](argparse.md)

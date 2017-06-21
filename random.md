@@ -15,19 +15,26 @@ yes
 
 Generate random numbers from a few distributions.
 
-    >>> import random
-    >>> random.randint(1,6)
+    import random
+
+    print(random.randint(1,6))
+    
     5
-    >>> random.random()
+
+    print(random.random())
+
     0.9553636591673604
-    >>> random.gauss(0.0, 1.0)
+
+    print(random.gauss(0.0, 1.0))
+
     1.284988658685204
 
 Shuffle a list.
 
-    >>> data = [1, 2, 3, 4]
-    >>> random.shuffle(data)
-    >>> data
+    data = [1, 2, 3, 4]
+    random.shuffle(data)
+    print(data)
+
     [3, 2, 4, 1]
 
 ### Where to learn more?

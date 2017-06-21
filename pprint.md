@@ -15,13 +15,15 @@ yes
 
 Pretty-print data using a wide and a narrow width:
 
-    >>> from pprint import pprint
+    from pprint import pprint
 
-    >>> data = {'second': 'two', 'first': 1, 'third': [3, 4, 5]}
-    >>> pprint(data)
+    data = {'second': 'two', 'first': 1, 'third': [3, 4, 5]}
+    pprint(data)
+    
     {'first': 1, 'second': 'two', 'third': [3, 4, 5]}
 
-    >>> pprint(data, width=20)
+    pprint(data, width=20)
+    
     {'first': 1,
      'second': 'two',
      'third': [3,

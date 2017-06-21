@@ -19,12 +19,16 @@ yes
 
 Creating a 4 x 2 matrix and adding 10 to each element
 
-	>>> import numpy as np
-	>>> vector = np.array([[0, 1, 2, 3], [4, 5, 6, 7]])
-	>>> print(vector + 10)
+	import numpy as np
+
+	vector = np.array([[0, 1, 2, 3], [4, 5, 6, 7]])
+	print(vector + 10)
+
     [[10 11 12 13]
      [14 15 16 17]]
-	>>> print(vector.shape)
+
+	print(vector.shape)
+
     (2, 4)
 
 ### Where to learn more?

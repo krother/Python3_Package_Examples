@@ -16,11 +16,11 @@ yes
 
 Read the homepage of the author.
 
-    >>> from urllib import request, parse
-    >>> url = 'http://www.academis.eu'
-    >>> req = request.urlopen(url)
-    >>> page = req.read()
-    >>> print(len(page))
+    from urllib import request, parse
+    url = 'http://www.academis.eu'
+    req = request.urlopen(url)
+    page = req.read()
+    print(len(page))
 
 
 ### Where to learn more?

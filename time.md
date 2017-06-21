@@ -15,15 +15,15 @@ yes
 
 Format the current time to a string:
 
-    >>> import time
-    >>> time.asctime()
-    'Fri Mar 18 19:15:24 2016'
-    >>> time.strftime('%a %d.%m.', time.localtime())
-    'Fri 18.03.'
+    import time
 
-Waiting for two seconds:
+    print(time.asctime())
 
-    >>> time.sleep(2)
+    print(time.strftime('%a %d.%m.', time.localtime()))
+
+Wait for two seconds:
+
+    time.sleep(2)
 
 ### Where to learn more?
 

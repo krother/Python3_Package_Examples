@@ -15,18 +15,18 @@ yes
 
 Convert a dictionary to a JSON-formatted string:
 
-    >>> import json
+    import json
 
-    >>> data = {'first': 1, 'second': 'two', 'third': [3,4,5]}
-    >>> json.dumps(data)
-    '{"second": "two", "first": 1, "third": [3, 4, 5]}'
-    >>> jj = json.dumps(data)
-    >>> jj
+    data = {'first': 1, 'second': 'two', 'third': [3,4,5]}
+    jj = json.dumps(data)
+    print(jj)
     '{"second": "two", "first": 1, "third": [3, 4, 5]}'
 
 Convert JSON string back to a Python dictionary:
 
-    >>> json.loads(jj)
+    d = json.loads(jj)
+    print(d)
+
     {'second': 'two', 'first': 1, 'third': [3, 4, 5]}
 
 ### Where to learn more?

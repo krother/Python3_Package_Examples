@@ -15,22 +15,26 @@ yes
 
 Concatenate a list:
 
-    >>> import itertools
-    >>> ch = itertools.chain([1,2],[3,4])
-    >>> list(ch)
+    import itertools
+    ch = itertools.chain([1,2],[3,4])
+    print(list(ch))
+    
     [1, 2, 3, 4]
 
-    >>> list(itertools.repeat([1,2], 3))
+    print(list(itertools.repeat([1,2], 3)))
+
     [[1, 2], [1, 2], [1, 2]]
 
 Permutations and combinations of list elements:
 
-    >>> p = itertools.permutations([1,2,3])
-    >>> list(p)
+    p = itertools.permutations([1,2,3])
+    print(list(p))
+    
     [(1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), (3, 2, 1)]
 
-    >>> c = itertools.combinations([1,2,3], 2)
-    >>> list(c)
+    c = itertools.combinations([1,2,3], 2)
+    print(list(c))
+
     [(1, 2), (1, 3), (2, 3)]
 
 ### Where to learn more?

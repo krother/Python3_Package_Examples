@@ -15,32 +15,31 @@ yes
 
 Create a new database:
 
-    >>> import sqlite3
+    import sqlite3
 
-    >>> DB_SETUP = '''
-    ... CREATE TABLE IF NOT EXISTS person (
-    ...     id INTEGER,
-    ...     name VARCHAR(32),
-    ...     description TEXT
-    ... );'''
-    >>> db = sqlite3.connect('hamlet.db')
-    >>> db.executescript(DB_SETUP)
+    DB_SETUP = '''
+      CREATE TABLE IF NOT EXISTS person (
+        id INTEGER,
+        name VARCHAR(32),
+        description TEXT
+      );'''
+    db = sqlite3.connect('hamlet.db')
+    db.executescript(DB_SETUP)
 
 Insert data:
 
-    >>> query = 'INSERT INTO person VALUES (?,?,?)'
-    >>> db.execute(query, (1, "Hamlet", "the prince of Denkmark"))
-    >>> db.execute(query, (2, "Polonius", "Ophelias father"))
-    >>> db.commit()
+    query = 'INSERT INTO person VALUES (?,?,?)'
+    db.execute(query, (1, "Hamlet", "the prince of Denkmark"))
+    db.execute(query, (2, "Polonius", "Ophelias father"))
+    db.commit()
 
 Submit a query:
 
-    >>> query = '''SELECT name, description FROM person'''
-    >>> result = db.execute(query)
-    >>> print(list(result))
-    [('Hamlet', 'the prince of Denkmark'), ('Polonius', 'Ophelias father')]
+    query = '''SELECT name, description FROM person'''
+    result = db.execute(query)
+    print(list(result))
     
-    >>> db.close()
+    db.close()
 
 ### Where to learn more?
 
