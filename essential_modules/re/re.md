@@ -44,6 +44,21 @@ Check if `jumps` or `swims` occurs and return details:
 
 ### Where to learn more?
 
-[http://regexone.com/](http://regexone.com/)
+#### Online Games
 
-[https://docs.python.org/3/library/re.html](https://docs.python.org/3/library/re.html)
+* [regexone.com/](http://regexone.com/) - Learn regular expressions by simple, interactive examples. Great place to start.
+* [Regex crossword](http://regexcrossword.com/) - Train proper use of single characters, wildcards and square brackets. Easy.
+* [Regex Practice Quiz 1](http://www.tekdefense.com/news/2013/2/10/regex-practice-quiz-1-understanding-patterns.html) - exercises to try offline.
+* [Regex golf](http://regex.alf.nu) - Advanced exercises. Match as many phrases with as few key strokes as possible.
+
+#### Reference
+
+* [Python Regex HOWTO](https://docs.python.org/3.6/howto/regex.html)
+* [docs.python.org/3/library/re.html](https://docs.python.org/3/library/re.html)
+* [Quick Reference](http://www.night-ray.com/regex.pdf) - a reference sheet for looking up metacharacters. Uses the **Python syntax**.
+
+## Online Regex Testers
+
+* [Regex 101](http://regex101.com/) - Shows matched text with explanation.
+* [Pythex](https://pythex.org/) - RegEx tester using the Python `re` module.
+* [regexpal](http://regexpal.com/) - Uses JavaScript to highlight matches.
