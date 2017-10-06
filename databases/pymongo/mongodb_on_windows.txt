@@ -1,0 +1,6 @@
+
+Starting MongoDB on windows:
+
+cd D:/mongo/bin
+
+mongod.exe --dbpath d:/mongo/data/
