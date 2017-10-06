@@ -1,16 +1,15 @@
 
-# Parsing list items out of a HTML document:
-
 from bs4 import BeautifulSoup
 
 html = """<html><head></head><body>
 <h1>Hamlet</h1>
-  <ul class="cast"> 
-      <li>Hamlet</li>
-      <li>Polonius</li>
-      <li>Ophelia</li>
-      <li>Claudius</li>
-  </ul>
+<h3>dramatis personae</h3>
+<ul class="cast"> 
+  <li>Hamlet</li>
+  <li>Polonius</li>
+  <li>Ophelia</li>
+  <li>Claudius</li>
+</ul>
 </body></html"""
 
 soup = BeautifulSoup(html, "lxml")

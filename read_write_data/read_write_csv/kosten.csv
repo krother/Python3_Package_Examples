@@ -1,0 +1,162 @@
+,Handelsgut,Kosten,Anzahl
+0,Bäume,,
+1,Edelmetall,,
+2,Früchte,,
+3,Geld,,
+4,Kohle,,
+5,Korn,,
+6,Metallerz,,
+7,Öl,,
+8,Seltene Erden,,
+9,Stein,,
+10,Wanderarbeiter,,
+11,Wasser,,
+12,Wolle,,
+13,Bretter & Balken,Bäume,2.0
+14,Brennstoffe (Holz),Bäume,4.0
+15,Brennstoffe (Kohle),Kohle,3.0
+16,Brennstoffe (Öl),Öl,2.0
+17,Fenster,Glas,1.0
+18,Fenster,Stahl,1.0
+19,Fenster,Bretter & Balken,1.0
+20,Möbel,Bretter & Balken,3.0
+21,Möbel,Stahl,1.0
+22,Schnaps,Kohle,1.0
+23,Schnaps,Wasser,1.0
+24,Schnaps,Korn,1.0
+25,Schnaps,Früchte,1.0
+26,Bier,Kohle,1.0
+27,Bier,Wasser,1.0
+28,Bier,Korn,1.0
+29,Geld (5er),Geld,5.0
+30,Geschütze,Stahl,1.0
+31,Geschütze,Kanonen,1.0
+32,Geschütze,Computer,1.0
+33,Transportschiff,Schiffskorpus,2.0
+34,Transportschiff,Motoren,1.0
+35,Transportschiff,Elektronik,1.0
+36,Elektronik,Kohle,1.0
+37,Elektronik,Seltene Erden,1.0
+38,Elektronik,Stein,1.0
+39,LKW,Stahl,1.0
+40,LKW,Motoren,1.0
+41,LKW,Fahrwerke,1.0
+42,Benzin,Öl,2.0
+43,Kosmetik,Schnaps,1.0
+44,Kosmetik,Lacke & Farben,1.0
+45,Kosmetik,Chemikalien,1.0
+46,Spielzeug,Lacke & Farben,1.0
+47,Spielzeug,Elektronik,1.0
+48,Spielzeug,Plastik,1.0
+49,Kleidung,Lacke & Farben,1.0
+50,Kleidung,Stoffe,1.0
+51,Raketen,Sprengstoff,1.0
+52,Raketen,Triebwerke,1.0
+53,Raketen,Computer,1.0
+54,Bordwaffen,Stahl,1.0
+55,Bordwaffen,Sprengstoff,1.0
+56,Bordwaffen,Öl,1.0
+57,Stahl,Kohle,1.0
+58,Stahl,Metallerz,2.0
+59,Triebwerke,Stahl,1.0
+60,Triebwerke,Elektronik,1.0
+61,Triebwerke,Edelmetallbarren,1.0
+62,Triebwerke,Öl,1.0
+63,Geld (10er),Geld (5er),2.0
+64,Brot,Kohle,1.0
+65,Brot,Korn,2.0
+66,Sanitätsbedarf,Stoffe,1.0
+67,Sanitätsbedarf,Chemikalien,1.0
+68,Panzer,Stahl,1.0
+69,Panzer,Motoren,1.0
+70,Panzer,Kanonen,1.0
+71,Panzer,Fahrwerke,1.0
+72,Limonade,Wasser,2.0
+73,Limonade,Zucker,1.0
+74,Limonade,Früchte,1.0
+75,Beton,Stein,3.0
+76,Ölbohrschiff,Schiffskorpus,1.0
+77,Ölbohrschiff,Motoren,1.0
+78,Ölbohrschiff,Bohrkopf,1.0
+79,Glas,Kohle,1.0
+80,Glas,Metallerz,1.0
+81,Glas,Stein,1.0
+82,Süßwaren,Früchte,1.0
+83,Süßwaren,Korn,1.0
+84,Süßwaren,Zucker,1.0
+85,Süßwaren,Chemikalien,1.0
+86,Sprengstoff,Kohle,1.0
+87,Sprengstoff,Edelmetallerz,1.0
+88,Sprengstoff,Metallerz,1.0
+89,Sprengstoff,Öl,1.0
+90,Plastik,Kohle,1.0
+91,Plastik,Wasser,1.0
+92,Plastik,Öl,2.0
+93,Edelmetallbarren,Kohle,2.0
+94,Edelmetallbarren,Edelmetallerz,2.0
+95,Drogen,Kohle,1.0
+96,Drogen,Korn,1.0
+97,Drogen,Chemikalien,1.0
+98,Transportflugzeug,Flugzeugkorpus,1.0
+99,Transportflugzeug,Triebwerke,1.0
+100,Flugzeugkorpus,Glas,1.0
+101,Flugzeugkorpus,Stahl,1.0
+102,Flugzeugkorpus,Lacke & Farben,1.0
+103,Flugzeugkorpus,Plastik,1.0
+104,Rettungskräfte,Elektronik,1.0
+105,Rettungskräfte,Plastik,1.0
+106,Rettungskräfte,Chemikalien,1.0
+107,Schiffskorpus,Stahl,3.0
+108,Schiffskorpus,Lacke & Farben,1.0
+109,Kampfflugzeuge,Flugzeugkorpus,1.0
+110,Kampfflugzeuge,Bordwaffen,1.0
+111,Kampfflugzeuge,Triebwerke,1.0
+112,Kanonen,Stahl,1.0
+113,Kanonen,Sprengstoff,1.0
+114,Kanonen,Edelmetallbarren,1.0
+115,Fahrwerke,Stahl,1.0
+116,Fahrwerke,Lacke & Farben,1.0
+117,Autos,Glas,1.0
+118,Autos,Motoren,1.0
+119,Autos,Fahrwerke,1.0
+120,Chemikalien,Kohle,1.0
+121,Chemikalien,Benzin,1.0
+122,Chemikalien,Seltene Erden,1.0
+123,Bohrkopf,Stahl,1.0
+124,Bohrkopf,Seltene Erden,1.0
+125,Bohrkopf,Edelmetallbarren,1.0
+126,Lacke & Farben,Benzin,1.0
+127,Lacke & Farben,Seltene Erden,1.0
+128,Lacke & Farben,Öl,1.0
+129,Infanterie,Wanderarbeiter,1.0
+130,Infanterie,Gewehre,1.0
+131,Motoren,Stahl,1.0
+132,Motoren,Elektronik,1.0
+133,Motoren,Öl,1.0
+134,Zucker,Wasser,1.0
+135,Zucker,Korn,2.0
+136,Gewehre,Stahl,1.0
+137,Gewehre,Sprengstoff,1.0
+138,Gewehre,Öl,1.0
+139,Stoffe,Wolle,3.0
+140,Kriegsschiff,Schiffskorpus,2.0
+141,Kriegsschiff,Kanonen,1.0
+142,Kriegsschiff,Motoren,1.0
+143,Computer,Elektronik,2.0
+144,Computer,Seltene Erden,2.0
+145,Tierfutter,Korn,2.0
+146,Bretter & Balken,Bäume,2.0
+147,Rohpapier,Bäume,3.0
+148,Brennstoffe (Holz),Bäume,4.0
+149,Brennstoffe (Kohle),Kohle,3.0
+150,Brennstoffe (Öl),Öl,2.0
+151,Fleisch (Geflügel),Tierfutter,2.0
+152,Fleisch (Schaf&Ziege),Tierfutter,3.0
+153,Fleisch (Rind),Tierfutter,4.0
+154,Tierprodukte,Tierfutter,2.0
+155,Tierprodukte,Wasser,2.0
+156,Fleisch & Wurstwaren,Fleisch (Geflügel),1.0
+157,Fleisch & Wurstwaren,Fleisch (Schaf&Ziege),1.0
+158,Fleisch & Wurstwaren,Fleisch (Rind),1.0
+159,Fleisch & Wurstwaren,Plastik,1.0
+
