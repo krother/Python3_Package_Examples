@@ -17,12 +17,11 @@
   * [matplotlib - plotting diagrams](matplotlib.md)
   * [pillow - image manipulation](pillow.md)
 * Interacting with the web
-  * [bottle - run a small web server](bottle.md)
-  * [bs4 - parsing HTML pages](bs4.md)
-  * [requests - improved retrieving web pages](requests.md)
-  * [paramiko - executing commands via SSH](paramiko.md)
+  * [bottle - run a small web server](web/bottle_server/bottle.md)
+  * [bs4 - parsing HTML pages](web/bs4.md)
+  * [requests - improved retrieving web pages](web/requests.md)
+  * [paramiko - executing commands via SSH](system_administration/paramiko.md)
 * Other frequently used libraries
-  * [argparse - reading command-line arguments](argparse.md)
   * [itertools - working with lists and generators](itertools.md)
   * [math - mathematical functions](math.md)
   * [pprint - pretty-printing data](pprint.md)
@@ -31,8 +30,4 @@
   * [sqlite3 - a simple SQL database](sqlite.md)
   * [sys - settings of the Python interpreter](sys.md)
   * [time - working with dates and times](time.md)
-<!-- 
-statsmodel
-rpy2
-seaborn
-!-->
+* [Other useful libraries](other.md)
