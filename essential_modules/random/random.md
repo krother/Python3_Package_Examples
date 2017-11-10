@@ -11,32 +11,56 @@ Generate random numbers.
 
 yes
 
-### Example
+## Example
 
-Generate random numbers from a few distributions.
+### Creating random integers
+
+One most wanted function is to create random integers in a given range:
+
+    dice = random.randint(1,6)
+
+### Creating random floats
+
+The `random()` functin generates float numbers between 0 and 1:
+
+    import random
+    print random.random()
+
+### Generate random numbers from a few distributions.
 
     import random
 
-    print(random.randint(1,6))
-    
-    5
+    random.randint(1,6)
 
-    print(random.random())
+    random.random()
 
-    0.9553636591673604
+    random.gauss(0.0, 1.0)
 
-    print(random.gauss(0.0, 1.0))
-
-    1.284988658685204
-
-Shuffle a list.
+### Shuffle a list
 
     data = [1, 2, 3, 4]
     random.shuffle(data)
-    print(data)
 
-    [3, 2, 4, 1]
+### Creating random lists
+
+Random combinations of elements with repetition:
+
+    from random import choice
+
+    bases = ['A','C','G','T']
+    dna = [choice(bases) for i in range(20)]
+    print ''.join(dna)
+
+When elements are to be picked without repetition, you would use, the `sample` function:
+
+    from random import sample
+    
+    flavors = ['vanilla','banana','mint']
+    icecream = sample(flavors, 2)
+
 
 ### Where to learn more?
 
 [https://docs.python.org/3/library/random.html](https://docs.python.org/3/library/random.html)
+
+
