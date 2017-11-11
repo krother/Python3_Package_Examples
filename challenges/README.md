@@ -15,7 +15,7 @@
 
 | Challenge | Kurzbeschreibung | Rating |
 |-----------|------------------|--------|
-| Babynamengenerator | Erzeuge zufällige Babynamen | leicht |
+| [Babynamengenerator](babynamengenerator.md) | Erzeuge zufällige Babynamen | leicht |
 | Reguläre Ausdrücke | Suche Muster in Text | mittel |
 | Google | Führe eine Google-Suche durch | mittel |
 | Webrecherche | Lade Webseiten herunter | mittel |
