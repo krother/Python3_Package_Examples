@@ -13,7 +13,6 @@
   * [scipy - scientific calculations](scipy.md)
   * [scikit-learn - Machine Learning](sklearn.md)
 * Data visualisation
-  * [bokeh - creating graphics for the web](bokeh.md)
   * [matplotlib - plotting diagrams](matplotlib.md)
   * [pillow - image manipulation](pillow.md)
 * Interacting with the web
@@ -31,3 +30,15 @@
   * [sys - settings of the Python interpreter](sys.md)
   * [time - working with dates and times](time.md)
 * [Other useful libraries](other.md)
+* [Challenges](challenges/README.md)
+  * [Spirale](challenges/spiral/spiral.md)
+  * [Postkarte](challenges/postcards/postcard.md)
+  * [Thumbnails](challenges/thumbnails/README.md)
+  * [Rekursive Grafik](challenges/recursive_graph/recursive_graph.md)
+  * [Film](challenges/movie/README.md)
+  * [Babynamengenerator](challenges/babynamengenerator.md)
+  * [Reguläre Ausdrücke](challenges/regular_expressions/regex.md)
+  * [Google](challenges/google.md)
+  * [Webrecherche](challenges/webrecherche.md)
+  * [Display data](challenges/website/webpage.md)
+  * [Blog](challenges/blog.md)

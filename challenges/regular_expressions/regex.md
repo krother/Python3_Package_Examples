@@ -40,6 +40,6 @@ Besuche die Seite [www.regexone.com](http://www.regexone.com) und führe einige 
 
 Schreibe ein Programm, das E-Mail-Adressen in Text erkennt.
 
-Verwende die Funktion `re.findall` und erstelle einen entsprechenden.
+Verwende die Funktion `re.findall` und erstelle ein entsprechendes Suchmuster.
 
 Auf [Regex101](https://regex101.com/) kannst Du den regulären Ausdruck testen.
