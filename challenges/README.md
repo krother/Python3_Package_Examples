@@ -5,24 +5,26 @@
 
 | Challenge | Kurzbeschreibung | Rating |
 |-----------|------------------|--------|
-| Spirale | Zeichne eine Spirale | sehr leicht |
-| Postkarte | Zeichne eine Postkarte | leicht |
-| Thumbnails | Erzeuge Thumbnails von Bildern | mittel |
-| Rekursive Grafik | Zeichne rekursive Bilder | mittel |
-| Film | Drehe eine kurze Animation | schwer |
+| [Spirale](spiral/spiral.md) | Zeichne eine Spirale | sehr leicht |
+| [Postcards](postcards/postcard.md) | Zeichne eine Postkarte | leicht |
+| [Thumbnails](thumbnails/README.md) | Erzeuge Thumbnails von Bildern | mittel |
+| [Rekursive Grafik](recursive_graph/recursive_graph.md) | Zeichne rekursive Bilder | mittel |
+| [Film](movie/README.md) | Drehe einen kurzen Film | schwer |
+
 
 ## Daten
 
 | Challenge | Kurzbeschreibung | Rating |
 |-----------|------------------|--------|
-| Babynamengenerator | Erzeuge zufällige Babynamen | leicht |
-| Reguläre Ausdrücke | Suche Muster in Text | leicht |
-| Google | Führe eine Google-Suche durch | mittel |
-| Webrecherche | Lade Webseiten herunter | mittel |
+| [Babynamengenerator](babynamengenerator.md) | Erzeuge zufällige Babynamen | leicht |
+| [Reguläre Ausdrücke](regular_expressions/regex.md) | Suche Muster in Text | mittel |
+| [Google](google.md) | Führe eine Google-Suche durch | mittel |
+| [Webrecherche](webrecherche.md) | Lade Webseiten herunter | mittel |
+
 
 ## Webentwicklung
 
 | Challenge | Kurzbeschreibung | Rating |
 |-----------|------------------|--------|
-| Display data | Erstelle einen einfachen Bottle-Webserver | mittel |
-| Blog | Erstelle eine Blog-Webseite mit Django | schwer | 
+| [Daten anzeigen](website/webpage.md) | Erstelle einen einfachen Bottle-Webserver | mittel |
+| [Blog](blog.md) | Erstelle eine Blog-Webseite mit Django | schwer | 
