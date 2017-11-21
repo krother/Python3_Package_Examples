@@ -18,11 +18,11 @@
   * [paramiko - executing commands via SSH](system_administration/paramiko.md)
 * Essential standard modules
   * [math - mathematical functions](essential_modules/math/math.md)
-  * [os - working with files and directories](essential_modules/os.md)
+  * [os - working with files and directories](essential_modules/os/os.md)
   * [random - generating random numbers](essential_modules/random/random.md)
   * [re - pattern matching in text](essential_modules/re/re.md)
   * [time - working with dates and times](essential_modules/time/time.md)
-  * [sqlite3 - a simple SQL database](databases/sqlite3/sqlite.md)
+  * [sqlite3 - a simple SQL database](databases/sqlite3/sqlite3.md)
   * [sys - settings of the Python interpreter](essential_modules/sys/sys.md)
   * [itertools - working with lists and generators](essential_modules/itertools/itertools.md)
 * [Challenges](challenges/README.md)
