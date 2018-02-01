@@ -35,5 +35,5 @@
   * [Reguläre Ausdrücke](challenges/regular_expressions/regex.md)
   * [Google](challenges/google.md)
   * [Webrecherche](challenges/webrecherche.md)
-  * [Display data](challenges/website/webpage.md)
+  * [Webseite mit Strassennamen](challenges/website/website_DE.md)
   * [Blog](challenges/blog.md)

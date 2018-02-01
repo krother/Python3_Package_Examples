@@ -3,7 +3,7 @@
 
 In this exercise you will display a table on a HTML-page by starting your own web server with `bottle`.
 
-**Warning:** This exercise assumes you have basic knowledge on web servers and HTML pages. If you have never created a web page, it is probably easier to try the **DjangoGirls Tutorial** (which is much better documented). 
+**Warning:** This exercise assumes you have basic knowledge on web servers and HTML pages. If you have never created a web page, it is probably easier to try the **DjangoGirls Tutorial** (which is much better documented).
 
 ## 1. Launch Bottle
 
@@ -14,7 +14,7 @@ Start a hello world web server using Bottle.
 Create a file `views/template_name.tpl` (a HTML file).
 Add a template to the bottle server and connect it to the Python script by:
 
-   @view('template_name')
+    @view('template_name')
 
 
 ## 3. Supply variables
