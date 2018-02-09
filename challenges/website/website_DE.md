@@ -110,13 +110,21 @@ Recherchiere, wie Du ein Formular mit Flask erstellst. Baue ein Formular ein, in
 
 ## 11. Kopf- und Fußzeilen
 
-Du kannst Deine Templates auf mehrere Dateien aufteilen, um Redundanzen zu vermeiden. Erstelle eine Datei für Kopf- und eine für Fusszeilen.
+Du kannst Deine Templates auf mehrere Dateien aufteilen, um Redundanzen zu vermeiden. Erstelle eine Datei für Kopf- und Fusszeilen. 
+
+Wie das in Flask geht findest Du unter [Template Inheritance](flask.pocoo.org/docs/patterns/templateinheritance/#template-inheritance).
 
 ## 12. CSS-Stylesheets einbinden
-Hier kannst Du Typographie und Farben festlegen. Details nächste Woche.
+Hier kannst Du Typographie und Farben festlegen.
+
+* Lies unter [Selfhtml.org](https://selfhtml.org/) nach, wie CSS-Befehle aussehen.
+* Baue einen CSS-Befehl in eines der Templates ein, der die Überschrift einfärbt.
+* Erstelle eine Datei `static/style.css`, in die Du eine weitere CSS-Anweisung schreibst.
+* Binde die CSS-Datei in Dein Template ein (schreibt Dozent an).
+* Sage Flask, wo die CSS-Datei zu finden ist. Siehe [Static Files](http://flask.pocoo.org/docs/quickstart/#static-files)
 
 ## 13. Eine Karte mit Folium zeichnen
-Stelle die gefundenen Strassen als interaktive Karte dar. Details nächste Woche.
+Stelle die gefundenen Strassen als interaktive Karte dar. Probiere dazu zunächst ein Python-Skript mit dem Modul `folium` aus. Siehe [https://github.com/krother/python_showcase/tree/master/map_markers](https://github.com/krother/python_showcase/tree/master/map_markers).
 
 ## 14. Bootstrap
 
