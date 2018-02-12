@@ -112,7 +112,7 @@ Recherchiere, wie Du ein Formular mit Flask erstellst. Baue ein Formular ein, in
 
 Du kannst Deine Templates auf mehrere Dateien aufteilen, um Redundanzen zu vermeiden. Erstelle eine Datei für Kopf- und Fusszeilen. 
 
-Wie das in Flask geht findest Du unter [Template Inheritance](flask.pocoo.org/docs/patterns/templateinheritance/#template-inheritance).
+Wie das in Flask geht findest Du unter [Template Inheritance](http://flask.pocoo.org/docs/patterns/templateinheritance/#template-inheritance).
 
 ## 12. CSS-Stylesheets einbinden
 Hier kannst Du Typographie und Farben festlegen.
