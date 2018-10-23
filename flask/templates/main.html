@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!-- css@normalize -->
+      <link rel="stylesheet" href="/static/css/style.css">
+
+    <title>{{title}}</title>
+  </head>
+
+<body>
+
+      <h1>{{ title }}</h1>
+      <a href="/hello">Hello World page</a>
+      <ul>
+        {% for ani in animals %}
+           <li>{{ ani }}</li>
+        {% endfor %}
+      </ul>
+
+</body>
+</html>

@@ -1,25 +1,23 @@
 
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/hello")
 def hello():
-    return """<h1>Hello World!</h1>
-    """
+    return """<h1>Hello World!</h1>"""
 
-@app.route("/page")
-def page():
-    return "This is a page"
+@app.route("/hello/<name>")
+def hello_name(name):
+    return f"""<h1>Hello {name}!</h1>"""
 
-@app.route('/user/<username>')
-def show_user_profile(username):
-    # show the user profile for that user
-    return 'User %s' % username
+@app.route("/")
+def main():
+    return render_template('main.html',
+              title='Start page',
+              animals=['cat', 'dog', 'fish', 'platypus']
+              )
+
 
 if __name__ == "__main__":
     app.run()
-
-
-
-

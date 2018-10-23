@@ -74,7 +74,6 @@ This repository is for you if you:
 * [BeautifulSoup4 - parsing HTML pages](beautiful_soup/bs4.md)
 * [paramiko - executing commands via SSH](paramiko/paramiko.md)
 * flask - a simple web server
-* bottle - a simple web server
 * email - sending emails
 * [Twython](https://github.com/ryanmcgrath/twython) - download Tweets
 * fabric - automated deployment tool
