@@ -1,7 +1,7 @@
 
 import math
 import random
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 # prepare random data
 n_balls = 50

@@ -1,9 +1,9 @@
 
-import pylab
+from matplotlib import pyplot as plt
 import sys
 import random
 
-pylab.figure()
+plt.figure()
 
 name = 'imap'
 
@@ -12,18 +12,18 @@ xs = range(15)
 ys = [random.choice(xs) for i in range(len(xs))]
 
 # create a plot
-fig, = pylab.plot(xs, ys, 'ro-')
+fig, = plt.plot(xs, ys, 'ro-')
 dpi = fig.figure.get_dpi()
 height = fig.figure.get_figheight() * dpi
 
 # save figure
-pylab.savefig(name + '.png', dpi=dpi) # dpi is needed!
+plt.savefig(name + '.png', dpi=dpi) # dpi is needed!
 
 # convert the x,y coords into image coords.
 xys = list(zip(xs, ys))
 transform = fig.get_transform()
 icoords = transform.transform(xys)
-
+i
 
 # Create a HTML image map
 template = """

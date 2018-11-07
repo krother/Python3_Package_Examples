@@ -1,5 +1,5 @@
 
-from pylab import figure, title, pie, savefig
+from matplotlib import pyplot as plt
 
 nucleotides = 'G', 'C', 'A', 'U'
 count = [1024, 759, 606, 398]
@@ -11,10 +11,10 @@ def get_percent(value):
     '''Formats float values in pie slices to percent.'''
     return "%4.1f%%" % (value)
 
-figure(1)
-title('nucleotides in 23S RNA from T.thermophilus')
+plt.figure(1)
+plt.title('nucleotides in 23S RNA from T.thermophilus')
 
-pie(count, explode=explode, labels=nucleotides, shadow=True,
+plt.pie(count, explode=explode, labels=nucleotides, shadow=True,
     colors=colors, autopct=get_percent)
 
-savefig('piechart.png', dpi=150)
+plt.savefig('piechart.png', dpi=150)
