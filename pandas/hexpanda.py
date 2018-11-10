@@ -1,46 +1,26 @@
 
 import pandas as pd
 import pylab as plt
-import numpy as np
-import random
-from PIL import Image as im
-import os
-
-panda = im.open('panda.png')
-panda = panda.convert('L')
-
-width, height = panda.size
-gmap = list(panda.getdata())
-gmap = np.array(gmap)
-gmap = gmap.reshape((height, width))
-
-g = gmap - 255
-g = -1 * g
-p = pd.DataFrame(g)
-
-pp = p.unstack()
-pp = pp[pp > 0]
-
-# FIXME
-# convert Series to DataFrame
-pp.to_csv('panda.csv')
-pr = pd.read_csv('panda.csv', names=['x', 'y', 'col'])
-os.remove('panda.csv')
-pr['y'] *= -1
+from scipy.misc import imread
 
 
-def sample(val):
-    ri = random.randint(1, 1024)
-    return ri <= val
+panda = imread('panda.png')
 
+pixels = pd.DataFrame(255 - panda)
 
-pandasample = pr['col'].apply(sample)
-pr = pr[pandasample]
+# extract dark pixels
+pixels = pixels.unstack()
+pixels = pixels[pixels > 0]
 
-pr.plot.hexbin(x='x', y='y', gridsize=24, cmap=plt.get_cmap('Greys'))
-plt.savefig('hexpanda.svg')
+n_points = pixels.shape[0] // 10   # 10% of pixels
 
-# to see all different gridsizes:
-# for i in range(1, 50):
-#     pr.plot.hexbin(x='x', y='y', gridsize=i, cmap=plt.get_cmap('Greys'))
-#     plt.savefig('hexpandas/hexpanda_{}.png'.format(i))
+sample = pixels.sample(n_points)
+
+coords = sample.index.to_frame().values
+
+df = pd.DataFrame({'x': coords[:,0], 'y': -coords[:,1], 'n': sample.values})
+
+df.plot.hexbin(x='x', y='y', gridsize=24, cmap=plt.get_cmap('Greys'))
+plt.show()
+
+# source: https://github.com/krother/python_showcase
