@@ -1,5 +1,6 @@
+
 import numpy as np
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 n = 12
 X = np.arange(n)
