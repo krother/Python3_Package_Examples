@@ -46,29 +46,29 @@ This repository is for you if you:
 
 ## Visualisation
 
-* [matplotlib - plotting diagrams](plotting/matplotlib/matplotlib.md)
-* [pillow - image manipulation](graphics/pillow.md)
-* [Bokeh](http://bokeh.pydata.org/) - browser-based plots
-* folium - drawing maps
-* moviepy - editing video clips
-* ipythonblocks - drawing blocks in notebooks
-* turtle - simple drawing environment
+* [matplotlib - plotting diagrams](matplotlib/)
+* [pillow - image manipulation](pillow/)
+* [Bokeh - browser-based plots](bokeh/)
+* [folium - drawing maps](folium/)
+* [moviepy - editing video clips](moviepy/)
+* [ipythonblocks - drawing blocks in notebooks](ipythonblocks/)
+* [turtle - simple drawing environment](turtle/)
 
 ## Essential builtin modules
 
-* [math - mathematical functions](essential_modules/math/math.md)
-* [os - working with files and directories](essential_modules/os/os.md)
-* [random - generating random numbers](essential_modules/random/random.md)
-* [re - pattern matching in text](essential_modules/re/re.md)
-* [time - working with dates and times](essential_modules/time/time.md)
-* [sys - settings of the Python interpreter](essential_modules/sys/sys.md)
-* [itertools - working with lists and generators](essential_modules/itertools/itertools.md)
+* [math - mathematical functions](math/)
+* [os - working with files and directories](os/)
+* [random - generating random numbers](random/)
+* [re - pattern matching in text](re/)
+* [time - working with dates and times](time/)
+* [sys - settings of the Python interpreter](sys/)
+* [itertools - working with lists and generators](/itertools)
 
 ## Databases
 
-* [sqlite3 - a simple SQL database](databases/sqlite3/sqlite3.md)
-* mysql
-* pymongo
+* [sqlite3 - a simple SQL database](sqlite3/)
+* [mysql - adapter for the MySQL relational database](mysql/)
+* [pymongo - adapter for the MongoDB NoSQL database](pymongo/)
 
 ## Interacting with the web
 
