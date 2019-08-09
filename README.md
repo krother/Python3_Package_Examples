@@ -9,9 +9,9 @@ This repository is for you if you:
 
 * know a little bit of Python already
 * would like to know what Python packages are there
-* would like to try a few simple examples
+* would like to copy-paste easy examples
 
-**Have fun getting to know Python better!**
+**Have fun!**
 
 ## Usage
 
@@ -25,24 +25,24 @@ This repository is for you if you:
 
 ## Reading and writing files
 
-* [json - working with JSON files](read_write_data/read_write_json/json.md)
+* [json - read/write JSON files](read_write_data/json/)
 * [pydocx - read Word documents](pydocx/)
 * [pypdf2 - merge PDF documents](pypdf2/)
-* [pyaudio - recording audio files](pyaudio/)
-* [xml - parsing XML files](read_write_data/read_xml/xml.md)
+* [pyaudio - record audio](pyaudio/)
+* [xml - parse XML files](read_write_data/xml/)
 * [xlrd - read Excel spreadsheets](xlrd/)
-* [zipfile - reading and writing .zip files](read_write_data/read_write_zipfile/zipfile.md)
+* [zipfile - read and write .zip files](zipfile/)
 
 ## Data science
 
-* [numpy - fast matrix calculations](data_analysis/numpy.md)
-* [pandas - comfortable handling of tables](data_analysis/pandas/pandas.md)
-* [scipy - scientific calculations](data_analysis/fit_function/scipy.md)
-* [scikit-learn - Machine Learning](data_analysis/machine_learning/sklearn.md)
-* RPy2 - A library connecting the R statistics program and Python.
-* PuLP - linear equation solver
-* fuzzywuzzy
-* vader
+* [numpy - fast matrix calculations](numpy/)
+* [pandas - comfortable handling of tables](pandas/)
+* [scipy - scientific calculations](scipy/)
+* [scikit-learn - Machine Learning](sklearn/)
+* [RPy2 - Use R functions from within Python](RPy/)
+* [PuLP - linear equation solver](PuLP/)
+* [fuzzywuzzy - fuzzy text search](fuzzywuzzy/)
+* [vader - sentiment analysis](vader/)
 
 ## Visualisation
 
