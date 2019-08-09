@@ -26,12 +26,12 @@ This repository is for you if you:
 ## Reading and writing files
 
 * [json - working with JSON files](read_write_data/read_write_json/json.md)
+* [pydocx - read Word documents](pydocx/)
+* [pypdf2 - merge PDF documents](pypdf2/)
+* [pyaudio - recording audio files](pyaudio/)
 * [xml - parsing XML files](read_write_data/read_xml/xml.md)
+* [xlrd - read Excel spreadsheets](xlrd/)
 * [zipfile - reading and writing .zip files](read_write_data/read_write_zipfile/zipfile.md)
-* xlrd - read Excel spreadsheets
-* pydocx - read Word documents
-* pypdf2 - merge PDF documents
-* pyaudio - recording audio files
 
 ## Data science
 
@@ -41,6 +41,8 @@ This repository is for you if you:
 * [scikit-learn - Machine Learning](data_analysis/machine_learning/sklearn.md)
 * RPy2 - A library connecting the R statistics program and Python.
 * PuLP - linear equation solver
+* fuzzywuzzy
+* vader
 
 ## Visualisation
 
