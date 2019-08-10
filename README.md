@@ -15,83 +15,86 @@ This repository is for you if you:
 
 ## Usage
 
-1. Download the repository
-2. Go to any of the subdirectories
-3. Install the packages imported by the Python scripts
-4. Execute the Python scripts
+1. Go to any of the subdirectories
+2. Install the packages imported by the Python scripts
+3. Execute any of the Python scripts
 
 
 ## Packages
 
-## Reading and writing files
+## Reading and Writing Files
 
-* [json - read/write JSON files](read_write_data/json/)
+* [json - read/write JSON files](json/)
 * [pydocx - read Word documents](pydocx/)
 * [pypdf2 - merge PDF documents](pypdf2/)
 * [pyaudio - record audio](pyaudio/)
-* [xml - parse XML files](read_write_data/xml/)
+* [xml - parse XML files](xml/)
 * [xlrd - read Excel spreadsheets](xlrd/)
 * [zipfile - read and write .zip files](zipfile/)
 
-## Data science
+## Data Science
 
 * [numpy - fast matrix calculations](numpy/)
 * [pandas - comfortable handling of tables](pandas/)
 * [scipy - scientific calculations](scipy/)
 * [scikit-learn - Machine Learning](sklearn/)
-* [StatsModels](http://statsmodels.sourceforge.net/) - Hypothesis tests and statistical models
 * [RPy2 - Use R functions from within Python](RPy/)
 * [PuLP - linear equation solver](PuLP/)
 * [fuzzywuzzy - fuzzy text search](fuzzywuzzy/)
-* [pytesseract - extract text from images](pytesseract/)
 * [vader - sentiment analysis](vader/)
-* [NetworkX - analyze and plot graphs](networkx/)
 
-## Visualisation
+## Plotting
 
-* [matplotlib - plotting diagrams](matplotlib/)
-* [pillow - image manipulation](pillow/)
 * [Bokeh - browser-based plots](bokeh/)
 * [folium - drawing maps](folium/)
-* [moviepy - edit video clips](moviepy/)
 * [ipythonblocks - drawing blocks in notebooks](ipythonblocks/)
+* [matplotlib - plotting diagrams](matplotlib/)
+* [NetworkX - analyze and plot graphs](networkx/)
 * [turtle - simple drawing environment](turtle/)
 * [wordcloud - plot word clouds](wordcloud/)
 
+## Image Processing
+
+* [moviepy - edit video clips](moviepy/)
+* [pillow - image manipulation](pillow/)
+* [pytesseract - extract text from images (OCR)](pytesseract/)
+* [scikit-image - Advanced image processing](scikit-image/)
+
 ## Essential builtin modules
 
+* [itertools - working with lists and generators](/itertools)
 * [math - mathematical functions](math/)
 * [os - working with files and directories](os/)
 * [random - generating random numbers](random/)
 * [re - pattern matching in text](re/)
-* [time - working with dates and times](time/)
 * [sys - settings of the Python interpreter](sys/)
-* [itertools - working with lists and generators](/itertools)
+* [time - working with dates and times](time/)
 
 ## Databases
 
-* [sqlite3 - a simple SQL database](sqlite3/)
 * [mysql - adapter for the MySQL relational database](mysql/)
 * [pymongo - adapter for the MongoDB NoSQL database](pymongo/)
+* [sqlite3 - a simple SQL database](sqlite3/)
 
-## Interacting with the web
+## Interacting with the Web
 
-* [requests - retrie web pages](requests/)
 * [BeautifulSoup4 - parse HTML pages](beautiful_soup/)
+* [email - send emails](email/)
 * [fabric - execute commands via SSH](fabric/)
 * [flask - a simple web server](flask/)
-* [email - send emails](email/)
+* [requests - retrie web pages](requests/)
 * [Twython - download Tweets](twython/)
 
-## User interfaces
+## User Interfaces
 
-* [tkinter - graphical user interfaces](tkinter/)
 * [curses - interactive terminal interface](curses/)
 * [ipywidgets - add buttons and control elements to jupyter](ipywidgets/)
+* [tkinter - graphical user interfaces](tkinter/)
 
 
-## Other useful libraries
+## Links to other useful libraries
 
+* [StatsModels - Hypothesis tests and statistical models](http://statsmodels.sourceforge.net/)
 * [Brython](http://brython.info/) is a JavaScript library that allows to place (limited) Python code on a web page.
 * PDFminer and PDF2text parse PDF documents
 * [scrapy](http://scrapy.org/) - Python package to collect data from entire websites
