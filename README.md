@@ -3,21 +3,13 @@
 
 **by Dr. Kristian Rother**
 
-This is a collection of my favourite Python packages.
-
-This repository is for you if you:
-
-* know a little bit of Python already
-* would like to know what Python packages are there
-* would like to copy-paste easy examples
-
-**Have fun!**
+A collection of easy-to-run code examples for my best-of Python packages.
 
 ## Usage
 
-1. Go to any of the subdirectories
+1. Go to any of the folders
 2. Install the packages imported by the Python scripts
-3. Execute any of the Python scripts
+3. Execute the Python scripts
 
 
 ## Packages
