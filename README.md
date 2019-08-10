@@ -39,10 +39,12 @@ This repository is for you if you:
 * [pandas - comfortable handling of tables](pandas/)
 * [scipy - scientific calculations](scipy/)
 * [scikit-learn - Machine Learning](sklearn/)
+* [StatsModels](http://statsmodels.sourceforge.net/) - Hypothesis tests and statistical models
 * [RPy2 - Use R functions from within Python](RPy/)
 * [PuLP - linear equation solver](PuLP/)
 * [fuzzywuzzy - fuzzy text search](fuzzywuzzy/)
 * [vader - sentiment analysis](vader/)
+* [NetworkX - analyze and plot graphs](networkx/)
 
 ## Visualisation
 
@@ -50,9 +52,10 @@ This repository is for you if you:
 * [pillow - image manipulation](pillow/)
 * [Bokeh - browser-based plots](bokeh/)
 * [folium - drawing maps](folium/)
-* [moviepy - editing video clips](moviepy/)
+* [moviepy - edit video clips](moviepy/)
 * [ipythonblocks - drawing blocks in notebooks](ipythonblocks/)
 * [turtle - simple drawing environment](turtle/)
+* [wordcloud - plot word clouds](wordcloud/)
 
 ## Essential builtin modules
 
@@ -72,18 +75,18 @@ This repository is for you if you:
 
 ## Interacting with the web
 
-* [requests - retrieving web pages](requests/requests.md)
-* [BeautifulSoup4 - parsing HTML pages](beautiful_soup/bs4.md)
-* [paramiko - executing commands via SSH](paramiko/paramiko.md)
-* flask - a simple web server
-* email - sending emails
-* [Twython](https://github.com/ryanmcgrath/twython) - download Tweets
-* fabric - automated deployment tool
+* [requests - retrie web pages](requests/)
+* [BeautifulSoup4 - parse HTML pages](beautiful_soup/)
+* [fabric - execute commands via SSH](fabric/)
+* [flask - a simple web server](flask/)
+* [email - send emails](email/)
+* [Twython - download Tweets](twython/)
 
 ## User interfaces
 
-* tkinter - graphical user interfaces
-* curses - terminal-based interfaces
+* [tkinter - graphical user interfaces](tkinter/)
+* [curses - interactive terminal interface](curses/)
+* [ipywidgets - add buttons and control elements to jupyter](ipywidgets/)
 
 
 ## Other useful libraries
@@ -94,7 +97,6 @@ This repository is for you if you:
 * [seaborn](http://web.stanford.edu/~mwaskom/software/seaborn/) - An easier to use, more powerful interface for matplotlib
 * [D3.js](http://d3js.org/)
 * [D3 gallery](https://github.com/mbostock/d3/wiki/Gallery)
-* [StatsModels](http://statsmodels.sourceforge.net/) - A statistics package
 
 ## Links
 
