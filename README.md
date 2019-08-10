@@ -43,6 +43,7 @@ This repository is for you if you:
 * [RPy2 - Use R functions from within Python](RPy/)
 * [PuLP - linear equation solver](PuLP/)
 * [fuzzywuzzy - fuzzy text search](fuzzywuzzy/)
+* [pytesseract - extract text from images](pytesseract/)
 * [vader - sentiment analysis](vader/)
 * [NetworkX - analyze and plot graphs](networkx/)
 
