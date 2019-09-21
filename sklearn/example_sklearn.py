@@ -1,9 +1,8 @@
 
-# Load one of the example datasets
-# and divide it into a training and test set:
-
 from sklearn import svm, datasets, cross_validation
 
+# Load one of the example datasets
+# and divide it into a training and test set:
 iris = datasets.load_iris()
 Xtrain, Xtest, Ytrain, Ytest = \
     cross_validation.train_test_split(iris.data, iris.target, \
@@ -11,7 +10,6 @@ Xtrain, Xtest, Ytrain, Ytest = \
 
 
 # Fit a Support Vector Machine model and test it:
-
 svc = svm.SVC(kernel='linear', C=1.0).fit(Xtrain, Ytrain)
 print(svc.score(Xtest, Ytest))
 

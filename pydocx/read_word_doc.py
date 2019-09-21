@@ -1,11 +1,9 @@
 
 from docx import Document
 
-document = Document('example.docx')
+document = Document('hamlet.docx')
 
 print(document)
 
 for para in document.paragraphs:
     print(para.text)
-
-

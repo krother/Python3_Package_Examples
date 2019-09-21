@@ -1,3 +1,6 @@
+#
+# more examples that transform the Python logo
+#
 
 from scipy.ndimage import imread, rotate
 from scipy.misc import imsave
@@ -86,4 +89,3 @@ g[:,:,0] *= mask
 g[:,:,1] *= mask
 g[:,:,2] *= mask
 imsave('masked.png', g)
-

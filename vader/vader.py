@@ -1,5 +1,3 @@
-# pip install vaderSentiment
-
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 s  = SentimentIntensityAnalyzer()

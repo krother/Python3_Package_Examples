@@ -1,4 +1,6 @@
 
+# Read an XML file and extract content from tags:
+
 from xml.dom.minidom import parse
 
 document = parse('hamlet.xml')

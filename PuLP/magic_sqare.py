@@ -42,6 +42,7 @@ prob.solve()
 
 print("Status:", LpStatus[prob.status])
 
+# print the numbers that have been found
 for y in YCOORD:
     for x in XCOORD:
         for n in NUMBERS:
@@ -49,4 +50,3 @@ for y in YCOORD:
                 print(n, end=' ')
                 #print(x, y, n)
     print()
-

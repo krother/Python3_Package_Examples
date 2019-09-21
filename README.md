@@ -1,26 +1,8 @@
 
 # Python 3 Package Examples
 
-**by Dr. Kristian Rother**
+Here you find easy copy-paste examples of my favourite Python packages.
 
-This is a collection of my favourite Python packages.
-
-This repository is for you if you:
-
-* know a little bit of Python already
-* would like to know what Python packages are there
-* would like to copy-paste easy examples
-
-**Have fun!**
-
-## Usage
-
-1. Go to any of the subdirectories
-2. Install the packages imported by the Python scripts
-3. Execute any of the Python scripts
-
-
-## Packages
 
 ## Reading and Writing Files
 
@@ -29,7 +11,6 @@ This repository is for you if you:
 * [pypdf2 - merge PDF documents](pypdf2/)
 * [pyaudio - record audio](pyaudio/)
 * [xml - parse XML files](xml/)
-* [xlrd - read Excel spreadsheets](xlrd/)
 * [zipfile - read and write .zip files](zipfile/)
 
 ## Data Science
@@ -108,8 +89,12 @@ This repository is for you if you:
 * [List of Python-APIs](http://www.pythonforbeginners.com/development/)list-of-python-apis/
 * [ProgrammableWeb API-catalog](http://www.programmableweb.com/)
 
+## Source
+
+[github.com/krother/Python3_Package_Examples](https://github.com/krother/Python3_Package_Examples)
+
 ## License
 
-(c) 2017 Dr. Kristian Rother (krother@academis.eu)
+© 2017 Dr. Kristian Rother (krother@academis.eu)
 
-The code here is distributed under the conditions of the MIT License. See LICENSE.TXT for details.
+The code is distributed under the conditions of the MIT License. See LICENSE.TXT for details.
