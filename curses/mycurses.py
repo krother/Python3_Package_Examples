@@ -1,7 +1,6 @@
 
 import curses
 
-
 stdscr = curses.initscr()
 curses.noecho()
 curses.cbreak()
@@ -16,13 +15,15 @@ def main(stdscr):
     height = 5; width = 40
     win = curses.newwin(height, width, begin_y, begin_x)
 
+    char = 'A'
     for x in range(3, 10):
-        for y in range(3, 5):
-            stdscr.addch(y, x, 42)
-    win.refresh()
+        for y in range(3, 7):
+            stdscr.addch(y, x, char)
+            win.refresh()
+            stdscr.refresh()
+            char = stdscr.getkey()[0]
+            char = max(['A', char])
 
-    stdscr.refresh()
-    stdscr.getkey()
 
 wrapper(main)
 

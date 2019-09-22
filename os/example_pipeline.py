@@ -9,12 +9,8 @@ for filename in os.listdir("/home/participant/"):
         print filename
 
 
-# run an external program
+# run a command-line program
 os.system("ls -l > result.txt")
-"""
-The > result.txt creates a text file that contains everything
-the program you called wrote.
-"""
 
 
 # give parameters to a Python program

@@ -1,11 +1,5 @@
-"""
-Example GUI built with Tkinter.
+# Example GUI built with Tkinter.
 
-See documentation at
-https://docs.python.org/3/library/tk.html
-and
-https://docs.python.org/3/library/tkinter.html
-"""
 import tkinter as tk
 from PIL import Image, ImageTk
 

@@ -3,14 +3,9 @@
 
 import os, fnmatch
 
-def search_tree(root, pattern):
-    for path, subdirs, files in os.walk(root):
+pattern = '*.py'
+
+for path, subdirs, files in os.walk('.'):
         for name in files:
             if fnmatch.fnmatch(name, pattern):
-                yield os.path.join(path, name)
-                
-
-if __name__ == '__main__':
-    path = 'C:\\Docume~1\\Kristian\\Pulpit'
-    for filename in search_tree(path, '*.py'):
-        print filename
+                print(os.path.join(path, name))

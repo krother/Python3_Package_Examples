@@ -23,27 +23,27 @@ Here you find easy copy-paste examples of my favourite Python packages.
 * [PuLP - linear equation solver](PuLP/)
 * [fuzzywuzzy - fuzzy text search](fuzzywuzzy/)
 * [vader - sentiment analysis](vader/)
+* [StatsModels - Hypothesis tests and statistical models](http://statsmodels.sourceforge.net/)
 
 ## Plotting
 
-* [Bokeh - browser-based plots](bokeh/)
 * [folium - drawing maps](folium/)
 * [ipythonblocks - drawing blocks in notebooks](ipythonblocks/)
 * [matplotlib - plotting diagrams](matplotlib/)
 * [NetworkX - analyze and plot graphs](networkx/)
+* [seaborn - a more powerful interface for matplotlib](http://web.stanford.edu/~mwaskom/software/seaborn/)
 * [turtle - simple drawing environment](turtle/)
 * [wordcloud - plot word clouds](wordcloud/)
 
 ## Image Processing
 
-* [moviepy - edit video clips](moviepy/)
 * [pillow - image manipulation](pillow/)
 * [pytesseract - extract text from images (OCR)](pytesseract/)
-* [scikit-image - Advanced image processing](scikit-image/)
+* [scikit-image - Advanced image processing](scikit_image/)
 
 ## Essential builtin modules
 
-* [itertools - working with lists and generators](/itertools)
+* [itertools - working with lists and generators](itertools/)
 * [math - mathematical functions](math/)
 * [os - working with files and directories](os/)
 * [random - generating random numbers](random/)
@@ -63,7 +63,8 @@ Here you find easy copy-paste examples of my favourite Python packages.
 * [email - send emails](email/)
 * [fabric - execute commands via SSH](fabric/)
 * [flask - a simple web server](flask/)
-* [requests - retrie web pages](requests/)
+* [requests - retrieve web pages](requests/)
+* [scrapy - collect data from entire websites](http://scrapy.org/)
 * [Twython - download Tweets](twython/)
 
 ## User Interfaces
@@ -71,23 +72,12 @@ Here you find easy copy-paste examples of my favourite Python packages.
 * [curses - interactive terminal interface](curses/)
 * [ipywidgets - add buttons and control elements to jupyter](ipywidgets/)
 * [tkinter - graphical user interfaces](tkinter/)
+* [Brython - run Python code in a browser](http://brython.info/)
 
 
-## Links to other useful libraries
-
-* [StatsModels - Hypothesis tests and statistical models](http://statsmodels.sourceforge.net/)
-* [Brython](http://brython.info/) is a JavaScript library that allows to place (limited) Python code on a web page.
-* PDFminer and PDF2text parse PDF documents
-* [scrapy](http://scrapy.org/) - Python package to collect data from entire websites
-* [seaborn](http://web.stanford.edu/~mwaskom/software/seaborn/) - An easier to use, more powerful interface for matplotlib
-* [D3.js](http://d3js.org/)
-* [D3 gallery](https://github.com/mbostock/d3/wiki/Gallery)
-
-## Links
+## More Libraries
 
 * [Awesome Python](https://awesome-python.com/) is a curated list of Python libraries and tools.
-* [List of Python-APIs](http://www.pythonforbeginners.com/development/)list-of-python-apis/
-* [ProgrammableWeb API-catalog](http://www.programmableweb.com/)
 
 ## Source
 
