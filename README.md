@@ -27,16 +27,20 @@ Here you find easy copy-paste examples of my favourite Python packages.
 
 ## Plotting
 
+* [altair - plotting library with JSON backend](https://altair-viz.github.io/)
 * [folium - drawing maps](folium/)
+* [geopandas – plot DataFrames on maps](http://geopandas.org/)
 * [ipythonblocks - drawing blocks in notebooks](ipythonblocks/)
 * [matplotlib - plotting diagrams](matplotlib/)
 * [NetworkX - analyze and plot graphs](networkx/)
+* [panel - create interactive plots](http://panel.pyviz.org/)
 * [seaborn - a more powerful interface for matplotlib](http://web.stanford.edu/~mwaskom/software/seaborn/)
 * [turtle - simple drawing environment](turtle/)
 * [wordcloud - plot word clouds](wordcloud/)
 
 ## Image Processing
 
+* [CV2 – movie processing](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
 * [pillow - image manipulation](pillow/)
 * [pytesseract - extract text from images (OCR)](pytesseract/)
 * [scikit-image - Advanced image processing](scikit_image/)
@@ -72,6 +76,7 @@ Here you find easy copy-paste examples of my favourite Python packages.
 * [curses - interactive terminal interface](curses/)
 * [ipywidgets - add buttons and control elements to jupyter](ipywidgets/)
 * [tkinter - graphical user interfaces](tkinter/)
+* [tqdm - draw progress bars](tqdm/)
 * [Brython - run Python code in a browser](http://brython.info/)
 
 
