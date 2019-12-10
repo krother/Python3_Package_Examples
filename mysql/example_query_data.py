@@ -11,9 +11,8 @@ db.query("""SELECT name, species FROM pet
 """)
 result = db.store_result()
 
-print "Rows",result.num_rows()
-print "Fields",result.num_fields()
+print("Rows",result.num_rows())
+print("Fields",result.num_fields())
 
 for i in range(result.num_rows()):
-    print result.fetch_row()[0]
-
+    print(result.fetch_row()[0])
