@@ -67,6 +67,7 @@ Here you find easy copy-paste examples of my favourite Python packages.
 * [email - send emails](email/)
 * [fabric - execute commands via SSH](fabric/)
 * [flask - a simple web server](flask/)
+* [OAUTH - authentication](oauth_git/)
 * [requests - retrieve web pages](requests/)
 * [scrapy - collect data from entire websites](http://scrapy.org/)
 * [Twython - download Tweets](twython/)
