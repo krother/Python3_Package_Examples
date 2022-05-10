@@ -22,7 +22,6 @@ Here you find easy copy-paste examples of my favourite Python packages.
 | [json](json/) | read/write JSON files |
 | [pydocx](pydocx/) | read Word documents |
 | [pypdf2](pypdf2/) | merge PDF documents |
-| [pyaudio](pyaudio/) | record audio |
 | [xml](xml/) | parse XML files |
 | [zipfile](zipfile/) | read and write .zip files |
 | [librosa (external)](https://librosa.org/) | process and analyze sound and music |
