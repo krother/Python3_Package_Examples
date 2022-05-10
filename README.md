@@ -85,11 +85,11 @@ Here you find easy copy-paste examples of my favourite Python packages.
 
 ## User Interfaces
 
-* [curses - interactive terminal interface](curses/)
-* [ipywidgets - add buttons and control elements to jupyter](ipywidgets/)
-* [tkinter - graphical user interfaces](tkinter/)
-* [tqdm - draw progress bars](tqdm/)
-* [Brython - run Python code in a browser](http://brython.info/)
+| package | description |
+|---------|-------------|
+| [curses](curses/) | interactive terminal interface |
+| [tkinter](tkinter/) | graphical user interfaces |
+| [tqdm](tqdm/) | draw progress bars |
 
 
 ## More Libraries
@@ -104,4 +104,4 @@ Here you find easy copy-paste examples of my favourite Python packages.
 
 © 2017 Dr. Kristian Rother (krother@academis.eu)
 
-The code is distributed under the conditions of the MIT License. See LICENSE.TXT for details.
+The code is distributed under the conditions of the MIT License. See :::file LICENSE.TXT for details.
