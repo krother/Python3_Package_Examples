@@ -3,9 +3,9 @@
 
 ### What it is good for?
 
-Functions to work with lists and iterators.
+`itertools` contains plenty of functions to work with lists and iterators.
 
-Most functions in this module return *iterators*, so you can use their result once or convert it to a list.
+Most functions in this module return *iterators* themselves, so you can use their result once or convert it to a list.
 
 ### Installed with Python by default
 

@@ -17,6 +17,8 @@ Here you find easy copy-paste examples of my favourite Python packages.
 
 ## Reading and Writing Files
 
+| package | description |
+|---------|-------------|
 | [json](json/) | read/write JSON files |
 | [pydocx](pydocx/) | read Word documents |
 | [pypdf2](pypdf2/) | merge PDF documents |
@@ -66,19 +68,20 @@ Here you find easy copy-paste examples of my favourite Python packages.
 
 ## Databases
 
-* [mysql - adapter for the MySQL relational database](mysql/)
-* [pymongo - adapter for the MongoDB NoSQL database](pymongo/)
-* [sqlite3 - a simple SQL database](sqlite3/)
+| package | description |
+|---------|-------------|
+| [pymongo](pymongo/) | adapter for the MongoDB NoSQL database |
+| [sqlite3](sqlite3/) | a simple SQL database |
 
-## Interacting with the Web
+## Web programming
 
-* [BeautifulSoup4 - parse HTML pages](beautiful_soup/)
-* [email - send emails](email/)
-* [fabric - execute commands via SSH](fabric/)
-* [flask - a simple web server](flask/)
-* [requests - retrieve web pages](requests/)
-* [scrapy - collect data from entire websites](http://scrapy.org/)
-* [Twython - download Tweets](twython/)
+| package | description |
+|---------|-------------|
+| [BeautifulSoup4](beautiful_soup/) | parse HTML pages |
+| [email](email/) | send emails |
+| [flask](flask/) | a simple web server |
+| [requests](requests/) | retrieve web pages |
+| [scrapy (external)](http://scrapy.org/) | collect data from entire websites |
 
 ## User Interfaces
 

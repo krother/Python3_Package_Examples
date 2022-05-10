@@ -1,13 +1,3 @@
-"""
-HTML Parsen mit BeautifulSoup
-
-Installation:
-
-    pip install bs4
-    (im Anaconda Prompt)
-
-"""
-
 from bs4 import BeautifulSoup
 
 html = """<html><head></head><body>

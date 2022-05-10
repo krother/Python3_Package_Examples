@@ -16,24 +16,27 @@ no
 
 yes
 
-### Example
+### How to install it?
 
-Read the homepage of the author.
-
-    import requests
-    
-    r = requests.get('http://www.academis.eu')
-    print(r.text)
-
-Search scientific articles on PubMed:
-
-    url = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
-    param_dict = {'db':'pubmed', 'term':'escherichia', 'rettype':'uilist'}
-
-    r = requests.get(url, params=param_dict)
-    print(r.text)
-
+    :::text
+    pip install requests
 
 ### Where to learn more?
 
 [http://docs.python-requests.org/en/latest/index.html](http://docs.python-requests.org/en/latest/index.html)
+
+
+### Read a static web page
+
+:::include example_requests.py
+
+
+### Search with parameters
+
+:::include search_with_parameters.py
+
+
+### Download RDF News Feed
+
+:::include download_news.py
+
