@@ -1,9 +1,5 @@
 
 import sqlite3
-# SQLite is a very straightforward SQL database. 
-# In contrast to MySQL or PostGreSQL, the data is stored in a single file.
-# The nice thing is that the Python module for accessing the data works
-# in almost the same way.
 
 DB_SETUP = '''
 CREATE TABLE IF NOT EXISTS person (
@@ -19,21 +15,17 @@ CREATE UNIQUE INDEX IF NOT EXISTS i1 ON person(id);
 db = sqlite3.connect('hamlet.db')
 db.executescript(DB_SETUP)
 
+# write data
 query = 'INSERT INTO person VALUES (?,?,?)'
 # The ?,?,? are a SQLite-specific way of formating strings.
-# There are special precautions against malicious attacks
-# (e.g. injecting a quote into the SQL statement)
+# There are special precautions against SQL injection
 db.execute(query, (1, "Hamlet", "the prince of Denkmark"))
 db.execute(query, (2, "Polonius", "Ophelias father"))
 
+# read data
 query = '''SELECT name, description FROM person'''
-result = db.execute(query)
-# result is an iterator, hence we need to convert it to a list to print it.
+result = db.execute(query)  # returns an iterator
 print(list(result))
 
 
 db.close()
-
-# Other things to look at:
-#   SQLAlchemy (acess database without having to write SQL code)
-#   pandas     (also has a method to export to SQL)
