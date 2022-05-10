@@ -47,12 +47,13 @@ Here you find easy copy-paste examples of my favourite Python packages.
 
 ## Image Processing
 
-| [turtle](turtle/) | simple drawing environment |
-* [pillow - image manipulation](pillow/)
-* [CV2 – movie processing](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
+| package | description |
+|---------|-------------|
+| [pillow - image manipulation](pillow/) |  |
 | [ipythonblocks](ipythonblocks/) | drawing blocks in notebooks |
-* [pytesseract - extract text from images (OCR)](pytesseract/)
-* [scikit-image - Advanced image processing](scikit_image/)
+| [pytesseract - extract text from images (OCR)](pytesseract/) |  |
+| [scikit-image - Advanced image processing](scikit_image/) |  |
+| [CV2 (external)](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html) | processing camera images and movies |
 
 ## Essential builtin modules
 
