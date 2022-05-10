@@ -3,11 +3,20 @@
 
 Here you find easy copy-paste examples of my favourite Python packages.
 
-
-## Reading and Writing Files
+## Builtin modules
 
 | package | description |
 |---------|-------------|
+| [itertools](itertools/) | working with lists and generators |
+| [math](math/) | mathematical functions |
+| [os](os/) | working with files and directories |
+| [random](random/) | generating random numbers |
+| [re](re/) | pattern matching in text |
+| [sys](sys/) | settings of the Python interpreter |
+| [time](time/) | working with dates and times |
+
+## Reading and Writing Files
+
 | [json](json/) | read/write JSON files |
 | [pydocx](pydocx/) | read Word documents |
 | [pypdf2](pypdf2/) | merge PDF documents |
@@ -51,19 +60,9 @@ Here you find easy copy-paste examples of my favourite Python packages.
 |---------|-------------|
 | [pillow - image manipulation](pillow/) |  |
 | [ipythonblocks](ipythonblocks/) | drawing blocks in notebooks |
-| [pytesseract - extract text from images (OCR)](pytesseract/) |  |
-| [scikit-image - Advanced image processing](scikit_image/) |  |
+| [pytesseract](pytesseract/) | extract text from images (OCR) |
+| [scikit-image](scikit_image/) | Advanced image processing |
 | [CV2 (external)](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html) | processing camera images and movies |
-
-## Essential builtin modules
-
-* [itertools - working with lists and generators](itertools/)
-* [math - mathematical functions](math/)
-* [os - working with files and directories](os/)
-* [random - generating random numbers](random/)
-* [re - pattern matching in text](re/)
-* [sys - settings of the Python interpreter](sys/)
-* [time - working with dates and times](time/)
 
 ## Databases
 

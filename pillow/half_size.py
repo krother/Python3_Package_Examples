@@ -1,6 +1,5 @@
 
-# Convert all `.png` images in the directory to half their size.
-
+# Convert all `.png` images in the directory to half their size
 from PIL import Image
 import os
 

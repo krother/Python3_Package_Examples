@@ -5,16 +5,13 @@
 
 Display block grids in Jupyter.
 
-### Installed with Python by default
-
-no
-
-### Installed with Anaconda
+### Installed with Python or Anaconda
 
 no
 
 ### How to install it?
 
+    :::text
     pip install ipythonblocks
 
 ### Example
