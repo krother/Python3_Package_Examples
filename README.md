@@ -1,47 +1,56 @@
 
-# Python 3 Package Examples
+# Python Package Examples
 
 Here you find easy copy-paste examples of my favourite Python packages.
 
 
 ## Reading and Writing Files
 
-* [json - read/write JSON files](json/)
-* [pydocx - read Word documents](pydocx/)
-* [pypdf2 - merge PDF documents](pypdf2/)
-* [pyaudio - record audio](pyaudio/)
-* [xml - parse XML files](xml/)
-* [zipfile - read and write .zip files](zipfile/)
+| package | description |
+|---------|-------------|
+| [json](json/) | read/write JSON files |
+| [pydocx](pydocx/) | read Word documents |
+| [pypdf2](pypdf2/) | merge PDF documents |
+| [pyaudio](pyaudio/) | record audio |
+| [xml](xml/) | parse XML files |
+| [zipfile](zipfile/) | read and write .zip files |
+| [librosa (external)](https://librosa.org/) | process and analyze sound and music |
+
 
 ## Data Science
 
-* [numpy - fast matrix calculations](numpy/)
-* [pandas - comfortable handling of tables](pandas/)
-* [scipy - scientific calculations](scipy/)
-* [scikit-learn - Machine Learning](sklearn/)
-* [RPy2 - Use R functions from within Python](RPy/)
-* [PuLP - linear equation solver](PuLP/)
-* [fuzzywuzzy - fuzzy text search](fuzzywuzzy/)
-* [vader - sentiment analysis](vader/)
-* [StatsModels - Hypothesis tests and statistical models](http://statsmodels.sourceforge.net/)
+| package | description |
+|---------|-------------|
+| [numpy](numpy/) | fast numerical calculations |
+| [pandas](pandas/) | analyze tabular data |
+| [scipy](scipy/) | scientific calculations |
+| [scikit-learn](sklearn/) | Machine Learning |
+| [RPy2](RPy/) | Use R functions from within Python |
+| [PuLP](PuLP/) | linear equation solver |
+| [fuzzywuzzy](fuzzywuzzy/) | fuzzy text search |
+| [vader](vader/) | sentiment analysis |
+| [statsmodels (external)](http://statsmodels.sourceforge.net/) | Hypothesis tests and statistical models |
+
 
 ## Plotting
 
-* [altair - plotting library with JSON backend](https://altair-viz.github.io/)
-* [folium - drawing maps](folium/)
-* [geopandas – plot DataFrames on maps](http://geopandas.org/)
-* [ipythonblocks - drawing blocks in notebooks](ipythonblocks/)
-* [matplotlib - plotting diagrams](matplotlib/)
-* [NetworkX - analyze and plot graphs](networkx/)
-* [panel - create interactive plots](http://panel.pyviz.org/)
-* [seaborn - a more powerful interface for matplotlib](http://web.stanford.edu/~mwaskom/software/seaborn/)
-* [turtle - simple drawing environment](turtle/)
-* [wordcloud - plot word clouds](wordcloud/)
+| package | description |
+|---------|-------------|
+| [folium](folium/) | drawing maps |
+| [matplotlib](matplotlib/) | plotting diagrams |
+| [NetworkX](networkx/) | analyze and plot graphs |
+| [wordcloud](wordcloud/) | plot word clouds |
+| [seaborn (external)](https://seaborn.pydata.org/) | a more powerful interface for matplotlib |
+| [altair (external)](https://altair-viz.github.io/) | plotting library with JSON backend |
+| [geopandas (external)](http://geopandas.org/) | plot DataFrames on maps |
+| [panel (external)](http://panel.pyviz.org/) | create interactive plots |
 
 ## Image Processing
 
-* [CV2 – movie processing](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
+| [turtle](turtle/) | simple drawing environment |
 * [pillow - image manipulation](pillow/)
+* [CV2 – movie processing](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
+| [ipythonblocks](ipythonblocks/) | drawing blocks in notebooks |
 * [pytesseract - extract text from images (OCR)](pytesseract/)
 * [scikit-image - Advanced image processing](scikit_image/)
 

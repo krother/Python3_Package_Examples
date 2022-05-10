@@ -1,8 +1,3 @@
-"""
-https://folium.readthedocs.io/en/latest/quickstart.html#markers
-
-more icons see: http://getbootstrap.com/components/
-"""
 
 import folium
 import pandas as pd

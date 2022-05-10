@@ -18,6 +18,7 @@ yes
 
 ### How to install it?
 
+    :::text
     pip install numpy
 
 ### Where to learn more?

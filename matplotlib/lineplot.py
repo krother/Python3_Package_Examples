@@ -1,20 +1,14 @@
 
 from matplotlib import pyplot as plt
-from random import random
-
-x_data = [x for x in range(50)]
-y_data = [x + 10 for x in x_data]
-noisy_y_data = [x + random()*10+5 for x in x_data]
+import math
 
 plt.figure()
-curve1 = plt.plot(x_data, y_data, 'k-',  label = 'without noise')
-curve2 = plt.plot(x_data, noisy_y_data, 'r--',  label = 'with noise')
-# also try: 'k:', 'bs' , 'ro', 'g^', 'gv'
 
-plt.title('Noise on a linear function')
-plt.xlabel('x values')
-plt.ylabel('linear function')
-plt.legend(loc='lower right')
-plt.axis([10,40,0,60])
+x = [0.01 * i for i in range(1000)]
+y = [math.sin(j) for j in x]
 
-plt.savefig('lineplot.png')
+plt.plot(x, y, 'k-', linewidth=1)
+plt.text(5, 0, "$y = sin(x)$", horizontalalignment='center', fontsize=20)
+plt.axis([0, 3*math.pi, -1.2, 1.2])
+
+plt.savefig('sinfunc.png')

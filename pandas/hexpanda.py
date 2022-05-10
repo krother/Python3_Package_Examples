@@ -3,11 +3,13 @@
 
 import pandas as pd
 import pylab as plt
-from scipy.misc import imread
+from PIL import Image
+import numpy as np
 
-
-panda = imread('panda.png')
-panda = panda[:,:,:3].mean(axis=2)  # aggregate color channels
+# read image and convert it to a numpy array
+panda = np.array(Image.open('panda.png'))
+panda = panda[:,:,:3].mean(axis=2)  # aggregate each color channel separately
+print(panda.shape) # rows and columns
 
 pixels = pd.DataFrame(255 - panda)
 
@@ -15,12 +17,12 @@ pixels = pd.DataFrame(255 - panda)
 pixels = pixels.unstack()
 pixels = pixels[pixels > 0]
 
-n_points = pixels.shape[0] // 10   # 10% of pixels
-
+# select 10% of pixels
+n_points = pixels.shape[0] // 10
 sample = pixels.sample(n_points)
 
+# create new table from indices
 coords = sample.index.to_frame().values
-
 df = pd.DataFrame({'x': coords[:,0], 'y': -coords[:,1], 'n': sample.values})
 
 df.plot.hexbin(x='x', y='y', gridsize=24, cmap=plt.get_cmap('Greys'))

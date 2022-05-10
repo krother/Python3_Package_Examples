@@ -3,16 +3,13 @@
 
 ### What it is good for?
 
-Analyze sentiment (positive vs. negative) in text.
+Analyze the sentiment (positive vs. negative) of a text.
 
-### Installed with Python by default
-
-no
-
-### Installed with Anaconda
+### Installed with Python or Anaconda
 
 no
 
 ### How to install it?
 
+    :::text
     pip install vaderSentiment

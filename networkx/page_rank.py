@@ -1,12 +1,5 @@
-"""
-PageRank algorithm - example application of matrices
+# SPOILER ALERT: contains data from Pandemic Legacy Season 2
 
-https://en.wikipedia.org/wiki/PageRank
-
-SPOILER ALERT: contains data from Pandemic Legacy Season 2
-"""
-
-import numpy as np
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -28,15 +21,11 @@ adjacency['rank'] = pd.Series(rank)
 
 adjacency = adjacency.sort_values(by='rank', ascending=False)
 
-# relabel columns
-short = [x.replace(' ', '')[:3] for x in adjacency.columns]
-adjacency.set_axis(1, short)
-
 print(adjacency)
 
 # color by city state
 cities = pd.read_csv('cities.csv', names=['state'], index_col=0)
-# cities = pd.read_csv('cities.csv', names=['city', 'state'])
+
 col = {'safe': 0.0, 'live': 0.5, 'dead': 1.0}
 cities['color'] = cities['state'].apply(col.get)
 colors = [cities.loc[city]['color'] for city in g.nodes()]
