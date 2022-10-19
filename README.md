@@ -99,6 +99,10 @@ Here you find easy copy-paste examples of my favourite Python packages.
 
 [github.com/krother/Python3_Package_Examples](https://github.com/krother/Python3_Package_Examples)
 
+## Acknowledgements
+
+Thanks to Emely Henninger for finding a nasty bug in networkx!
+
 ## License
 
 © 2017 Dr. Kristian Rother (krother@academis.eu)
