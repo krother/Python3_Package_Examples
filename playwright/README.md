@@ -19,14 +19,9 @@ no
 
 ### How to install it?
 
-    :::text
     pip install playwright
     playwright install
 
 ### Where to learn more?
 
 [https://playwright.dev/python/](https://playwright.dev/python/)
-
-### Example:
-
-:::include playwright_example.py
