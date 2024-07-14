@@ -1,84 +1,95 @@
 
-# Python 3 Package Examples
+# Python Package Examples
 
 Here you find easy copy-paste examples of my favourite Python packages.
 
+## Builtin modules
+
+| package | description |
+|---------|-------------|
+| [itertools](itertools/) | working with lists and generators |
+| [math](math/) | mathematical functions |
+| [os](os/) | working with files and directories |
+| [random](random/) | generating random numbers |
+| [re](re/) | pattern matching in text |
+| [sys](sys/) | settings of the Python interpreter |
+| [time](time/) | working with dates and times |
 
 ## Reading and Writing Files
 
-* [json - read/write JSON files](json/)
-* [pydocx - read Word documents](pydocx/)
-* [pypdf2 - merge PDF documents](pypdf2/)
-* [pyaudio - record audio](pyaudio/)
-* [xml - parse XML files](xml/)
-* [zipfile - read and write .zip files](zipfile/)
+| package | description |
+|---------|-------------|
+| [json](json/) | read/write JSON files |
+| [pydocx](pydocx/) | read Word documents |
+| [pypdf2](pypdf2/) | merge PDF documents |
+| [xml](xml/) | parse XML files |
+| [zipfile](zipfile/) | read and write .zip files |
+| [librosa (external)](https://librosa.org/) | process and analyze sound and music |
+
 
 ## Data Science
 
-* [numpy - fast matrix calculations](numpy/)
-* [pandas - comfortable handling of tables](pandas/)
-* [scipy - scientific calculations](scipy/)
-* [scikit-learn - Machine Learning](sklearn/)
-* [RPy2 - Use R functions from within Python](RPy/)
-* [PuLP - linear equation solver](PuLP/)
-* [fuzzywuzzy - fuzzy text search](fuzzywuzzy/)
-* [vader - sentiment analysis](vader/)
-* [StatsModels - Hypothesis tests and statistical models](http://statsmodels.sourceforge.net/)
+| package | description |
+|---------|-------------|
+| [numpy](numpy/) | fast numerical calculations |
+| [pandas](pandas/) | analyze tabular data |
+| [scipy](scipy/) | scientific calculations |
+| [scikit-learn](sklearn/) | Machine Learning |
+| [RPy2](RPy/) | Use R functions from within Python |
+| [PuLP](PuLP/) | linear equation solver |
+| [fuzzywuzzy](fuzzywuzzy/) | fuzzy text search |
+| [vader](vader/) | sentiment analysis |
+| [statsmodels (external)](http://statsmodels.sourceforge.net/) | Hypothesis tests and statistical models |
+
 
 ## Plotting
 
-* [altair - plotting library with JSON backend](https://altair-viz.github.io/)
-* [folium - drawing maps](folium/)
-* [geopandas – plot DataFrames on maps](http://geopandas.org/)
-* [ipythonblocks - drawing blocks in notebooks](ipythonblocks/)
-* [matplotlib - plotting diagrams](matplotlib/)
-* [NetworkX - analyze and plot graphs](networkx/)
-* [panel - create interactive plots](http://panel.pyviz.org/)
-* [seaborn - a more powerful interface for matplotlib](http://web.stanford.edu/~mwaskom/software/seaborn/)
-* [turtle - simple drawing environment](turtle/)
-* [wordcloud - plot word clouds](wordcloud/)
+| package | description |
+|---------|-------------|
+| [folium](folium/) | drawing maps |
+| [matplotlib](matplotlib/) | plotting diagrams |
+| [NetworkX](networkx/) | analyze and plot graphs |
+| [wordcloud](wordcloud/) | plot word clouds |
+| [seaborn (external)](https://seaborn.pydata.org/) | a more powerful interface for matplotlib |
+| [altair (external)](https://altair-viz.github.io/) | plotting library with JSON backend |
+| [geopandas (external)](http://geopandas.org/) | plot DataFrames on maps |
+| [panel (external)](http://panel.pyviz.org/) | create interactive plots |
 
 ## Image Processing
 
-* [CV2 – movie processing](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
-* [pillow - image manipulation](pillow/)
-* [pytesseract - extract text from images (OCR)](pytesseract/)
-* [scikit-image - Advanced image processing](scikit_image/)
-
-## Essential builtin modules
-
-* [itertools - working with lists and generators](itertools/)
-* [math - mathematical functions](math/)
-* [os - working with files and directories](os/)
-* [random - generating random numbers](random/)
-* [re - pattern matching in text](re/)
-* [sys - settings of the Python interpreter](sys/)
-* [time - working with dates and times](time/)
+| package | description |
+|---------|-------------|
+| [pillow - image manipulation](pillow/) |  |
+| [ipythonblocks](ipythonblocks/) | drawing blocks in notebooks |
+| [pytesseract](pytesseract/) | extract text from images (OCR) |
+| [scikit-image](scikit_image/) | Advanced image processing |
+| [CV2 (external)](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html) | processing camera images and movies |
 
 ## Databases
 
-* [mysql - adapter for the MySQL relational database](mysql/)
-* [pymongo - adapter for the MongoDB NoSQL database](pymongo/)
-* [sqlite3 - a simple SQL database](sqlite3/)
+| package | description |
+|---------|-------------|
+| [pymongo](pymongo/) | adapter for the MongoDB NoSQL database |
+| [sqlite3](sqlite3/) | a simple SQL database |
 
-## Interacting with the Web
+## Web programming
 
-* [BeautifulSoup4 - parse HTML pages](beautiful_soup/)
-* [email - send emails](email/)
-* [fabric - execute commands via SSH](fabric/)
-* [flask - a simple web server](flask/)
-* [OAUTH - authentication](oauth_git/)
-* [requests - retrieve web pages](requests/)
-* [scrapy - collect data from entire websites](http://scrapy.org/)
-* [Twython - download Tweets](twython/)
+| package | description |
+|---------|-------------|
+| [BeautifulSoup4](beautiful_soup/) | parse HTML pages |
+| [email](email/) | send emails |
+| [flask](flask/) | a simple web server |
+| [requests](requests/) | retrieve web pages |
+| [OAUTH - authentication](oauth_git/) | authentication |
+| [scrapy (external)](http://scrapy.org/) | collect data from entire websites |
 
 ## User Interfaces
 
-* [curses - interactive terminal interface](curses/)
-* [ipywidgets - add buttons and control elements to jupyter](ipywidgets/)
-* [tkinter - graphical user interfaces](tkinter/)
-* [tqdm - draw progress bars](tqdm/)
-* [Brython - run Python code in a browser](http://brython.info/)
+| package | description |
+|---------|-------------|
+| [curses](curses/) | interactive terminal interface |
+| [tkinter](tkinter/) | graphical user interfaces |
+| [tqdm](tqdm/) | draw progress bars |
 
 
 ## More Libraries
@@ -89,8 +100,12 @@ Here you find easy copy-paste examples of my favourite Python packages.
 
 [github.com/krother/Python3_Package_Examples](https://github.com/krother/Python3_Package_Examples)
 
+## Acknowledgements
+
+Thanks to Emely Henninger for finding a nasty bug in networkx!
+
 ## License
 
 © 2017 Dr. Kristian Rother (krother@academis.eu)
 
-The code is distributed under the conditions of the MIT License. See LICENSE.TXT for details.
+The code is distributed under the conditions of the MIT License. See :::file LICENSE.TXT for details.

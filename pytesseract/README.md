@@ -5,15 +5,12 @@
 
 Extract text from images (Optical Character Recognition / OCR).
 
-### Installed with Python by default
-
-no
-
-### Installed with Anaconda
+### Installed with Python or Anaconda
 
 no
 
 ### How to install it?
 
+    :::text
     sudo apt install tesseract-ocr
     pip install pytesseract

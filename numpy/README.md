@@ -18,16 +18,22 @@ yes
 
 ### How to install it?
 
+    :::text
     pip install numpy
 
 ### Where to learn more?
 
-[http://www.numpy.org/](http://www.numpy.org/)
+* [Numpy Graphics Tutorial](https://www.academis.eu/numpy_graphics)
+* [www.numpy.org/](http://www.numpy.org/)
 
-## Examples
+### Draw the Mandelbrot set
 
-Numpy can't be covered in a brief code example. However, here is some eye candy:
+![](mandelbrot.png)
 
-![](../images/mandelbrot.png)
+:::include mandelbrot.py
 
-![](../images/vortex.gif)
+### Transform the Python logo
+
+![](roll.png)
+
+:::include transform_logo.py

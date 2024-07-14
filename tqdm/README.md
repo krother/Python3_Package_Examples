@@ -11,15 +11,5 @@ no
 
 ### How to install it?
 
+    :::text
     pip install tqdm
-
-### Example
-
-
-    import time
-    from tqdm import tqdm
-
-    for i in tqdm(range(100)):
-        time.sleep(0.1)
-
-    66%|███████████████████████████▋              | 66/100 [00:06<00:03,  9.91it/s]

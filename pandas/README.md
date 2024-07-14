@@ -17,6 +17,7 @@ yes
 
 ### How to install it?
 
+    :::text
     pip install pandas
 
 ### Where to learn more?

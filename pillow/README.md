@@ -3,9 +3,10 @@
 
 ### What it is good for?
 
-Image manipulation.
+`Pillow` reads, writes and edits images.
 
-`Pillow`, facilitates creating, cutting and applying filters to pixel based images.
+It contains simple drawing tools and filters that can be applied to pixel based images.
+The most important feature of `Pillow` is that it can read and write almost all popular image formats.
 
 ### Installed with Python by default
 
@@ -17,16 +18,32 @@ yes
 
 ### How to install it?
 
+    :::text
     pip install pillow
 
 ### Where to learn more?
 
 [https://pillow.readthedocs.org](https://pillow.readthedocs.org)
 
-## Examples
+### Shrink images
 
-![](../images/five.png)
+:::include half_size.py
 
-![](../images/snowflake3.png)
+### Create a dice image
 
-![](../images/pylogo_warhol.png)
+![](five.png)
+
+:::include dice.py
+
+### Mix color channels
+
+![](pylogo_warhol.png)
+
+:::include warhol.py
+
+### Create turtle graphics
+
+![](snowflake3.png)
+
+:::include snowflake.py
+

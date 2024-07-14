@@ -5,11 +5,7 @@
 
 Advanced image filters and transformations
 
-### Installed with Python by default
-
-no
-
-### Installed with Anaconda
+### Installed with Python or Anaconda
 
 no
 

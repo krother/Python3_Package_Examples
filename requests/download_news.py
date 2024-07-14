@@ -1,20 +1,13 @@
-"""
-Herunterladen von Artikeln
-von tagesschau.de
-"""
 
 import requests
 
-# Schritt 1:
-# RDF-Newsticker herunterladen
-# (leichter maschinenlesbar als Hauptseite)
+# Step 1: download machine-readable RDF-feed
 url = "http://www.tagesschau.de/newsticker.rdf"
 page = requests.get(url)
 text = str(page.content)
 open('newsticker.rdf', 'w').write(text)
 
-# Schritt 2:
-# Aus der Liste die Titel und Links auslesen
+# Step 2: parse titles and links
 titel = []
 for artikel in text.split('<title>'):
     t = artikel.split('</title>')[0]
@@ -25,21 +18,17 @@ for artikel in text.split('<link>'):
     t = artikel.split('</link>')[0]
     links.append(t)
 
-# Schritt 3:
-# Einzelne Artikelseiten herunterladen
+# Step 3: read articles
 import time
 
 i = 1
-for url in links[20:23]:  # nur 3 Artikel als Beispiel
+for url in links[20:23]:  # 3 examples only
     page = requests.get(url)
     text = str(page.content)
-    open('artikel{}.html'.format(i), 'w').write(text)  # in Datei speichern
+    open('artikel{}.html'.format(i), 'w').write(text)
     i = i + 1
-    time.sleep(20)  # Warten, damit der Server uns nicht blockt!
+    time.sleep(5)  # to prevent server from blocking!
 
 
-# alle Artikel als Tabelle ablegen
-tabelle = []
-for ti, lk in zip(titel, links):
-    tabelle.append([ti, lk])
-print(tabelle)
+# print titles
+print('\n'.join(titel))
